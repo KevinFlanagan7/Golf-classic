@@ -13,11 +13,6 @@ html {
     font-size: 62.5%;
 }
 
-/* General body and header styles */
-body {
-    min-height: 100%;
-}
-
 /* Sets colours throughout website */
 :root {
     --dark-green: #6e9075ff;
@@ -25,5 +20,31 @@ body {
     --white: #F5F5F5;
     --shadow-gray: #3a3a3a;
 }
+
+/* General body and header styles */
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merienda', sans-serif;
+    font-size: 1.6rem;
+    color: var(--dark-black);
+}
+
+header {
+    background-color: var(--dark-green);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 1.6rem .6rem 1.6rem;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px var(--shadow-gray);
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
 
    
