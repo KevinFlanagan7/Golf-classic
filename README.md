@@ -64,6 +64,23 @@ Welcome to the Midlands Golf Classic. This site gives information about the golf
 
 # Wireframes
 
+I have used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframes for my website. 
+
+The wireframes are below:
+
+### [Phone Wireframe](documentation)
+
+### [Tablet Wireframe](documentation/Tablet%20Wireframe.png)
+
+### [Desktop Wireframe](documentation/Desktop%20Wireframe.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+
 # Features
 
 ## Existing Features
