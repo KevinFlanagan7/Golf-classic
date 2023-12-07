@@ -68,11 +68,11 @@ I have used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframe
 
 The wireframes are below:
 
-### [Phone Wireframe](documentation)
+### [Phone Wireframes](<documentation/Phone Wireframe.png>)
 
-### [Tablet Wireframe](documentation/Tablet%20Wireframe.png)
+### [Tablet Wireframe](<documentation/Tablet Wireframe.png>)
 
-### [Desktop Wireframe](documentation/Desktop%20Wireframe.png)
+### [Desktop Wireframe](<documentation/Desktop Wireframe.png>)
 
 \
 &nbsp;
