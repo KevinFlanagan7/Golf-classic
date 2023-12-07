@@ -12,3 +12,18 @@
 html {
     font-size: 62.5%;
 }
+
+/* General body and header styles */
+body {
+    min-height: 100%;
+}
+
+/* Sets colours throughout website */
+:root {
+    --dark-green: #6e9075ff;
+    --dark-black: #000000;
+    --white: #F5F5F5;
+    --shadow-gray: #3a3a3a;
+}
+
+   
