@@ -2,7 +2,7 @@
 
 # Goal for this Project
 
-Welcome to the Midlands Golf Classic. This site gives information about the golf classic competetion, the location and the prizes to be won. It also gives the ability to make contact with the club easily through social media or directly via the registration form.
+Welcome to the Midlands Golf Classic website. This site gives information about the golf classic competetion, the location and the prizes to be won. It also gives the ability to make contact with the club easily through social media or directly via the registration form.
 
 ![Responsive Displays]()
 
@@ -46,13 +46,36 @@ Welcome to the Midlands Golf Classic. This site gives information about the golf
 
 ## User Goals
 
+* Visually appealing, including images.
+* Easily navigated around.
+* Quality and valuable content.
+* Easily found contact details.
+* Form to directly contact the club.
+* Map to location of club.
+
 ## User Stories
+* As a user, I want to be able to easily contact the club.
+* As a user, I want to be able to make contact with the club via several different methods, i.e. social media.
+* As a user, I want to be able to easily navigate through the website.
+* As a user, I want to know where the club is based.
+* As a user, I want to know what event is taking place.
 
 ## Site owners Goals
+* Promote the golf classic competition.
+* Increase the number of competitors.
+* Increase rankings on search engines.
 
 ### Requirements
 
 ### Expectations
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+
 
 ### Fonts
 
