@@ -142,6 +142,21 @@ nav {
     padding: 1rem 0 1rem 0;
 }
 
+/* Gallery Section */
+#gallery {
+    background-color: var(--white);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.photos img {
+    width: 100%;
+    line-height: 1.6rem;
+}
+
+.photos {
+    line-height: 0;
+}
 
 
    
