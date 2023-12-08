@@ -178,6 +178,22 @@ nav {
     padding: 0 1rem;
 }
 
+#calendar {
+    margin-top: 2rem;
+}
+
+#calendar label {
+    padding-right: 1rem;
+}
+
+.date-input {
+    background-color: var(--white);
+    color: var(--dark-black);
+    font-size: 1.6rem;
+    padding: 2px;
+}
+
+
 
 /* Footer Section */
 #social-networks {
