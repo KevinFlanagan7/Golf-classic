@@ -281,6 +281,33 @@ nav {
     .history {
         padding: 0 0 2rem 5rem;
     }
+
+    /* Prizes section */
+    #second-prize {
+        flex-direction: row-reverse;
+    }
+
+    .prizes {
+        display: flex;
+    }
+
+    .prize-locations {
+        width: 50%;
+    }
+
+    .ashford-castle {
+        text-align: end;
+    }
+
+    .prize-text {
+        text-align: center;
+        align-self: center;
+    }
+
+    .prize-info {
+        padding: 0 5rem;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
