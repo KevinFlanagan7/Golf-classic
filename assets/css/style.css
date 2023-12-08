@@ -45,6 +45,26 @@ header {
     align-items: baseline;
 }
 
+#menu {
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+.header-text {
+    color: var(--dark-black);
+    text-decoration: none;
+}
+
+.header-style {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu-list {
+    margin-bottom: 1rem;
+}
+
+
 
 
    
