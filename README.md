@@ -109,6 +109,22 @@ I have used [Coolers](https://coolors.co/ "Coolors") to help in the selection of
 
 ### Structure
 
+I will be building my website with a mobile first mindset using the Samsung Galaxy S9 (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/).
+
+| Screen Size | Breakpoint |
+| ----------- | ---------- |
+| x-small     | <576px     |
+| small       | => 576px   |
+| medium      | => 768px   |
+| large       | => 992px   |
+| x-large     | => 1200px  |
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 # Wireframes
 
 I have used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframes for my website. 
