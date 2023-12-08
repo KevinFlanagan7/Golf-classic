@@ -262,9 +262,25 @@ nav {
 
     /* Hero section */
     .cover-text {
-    width: 50rem;
+    width: 50%;
     }
 
+    /* About section */
+    #crest {
+        display: flex;
+    }
+
+    .history, .ballinasloe-logo {
+        width: 50%;
+    }
+
+    .ballinasloe-logo img {
+        padding: 0 0 1rem 0;
+    }
+
+    .history {
+        padding: 0 0 2rem 5rem;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
