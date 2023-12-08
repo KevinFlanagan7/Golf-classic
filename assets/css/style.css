@@ -158,6 +158,13 @@ nav {
     line-height: 0;
 }
 
+/* Registration section */
+#register {
+    background-color: var(--dark-green);
+    padding: 2rem 6rem;
+}
+
+
 /* Footer Section */
 #social-networks {
     background-color: var(--dark-green);
