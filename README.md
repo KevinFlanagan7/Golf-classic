@@ -79,9 +79,22 @@ Welcome to the Midlands Golf Classic website. This site gives information about 
 
 ### Fonts
 
+I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website. For the main text I have chosen [Merienda](https://fonts.google.com/specimen/Merienda?preview.text=Golf%20Classic&query=merienda) as I feel it is has a sharp, simple and easy to read look.
+
 ### Icons
 
 ### Colours
+
+I have used [Coolers](https://coolors.co/ "Coolors") to help in the selection of my colour scheme. I changed colours as initial heading colours had poor contract with the background. After manually optimizing it improved contrast with backgroud colours used. I used coolers contrast checker, results for green background can been viewed [here](https://coolors.co/contrast-checker/000000-6e9075 "Adjusted colour") and for the white background can be viewed [here](https://coolors.co/contrast-checker/000000-f5f5f5 "Adjusted colour").
+
+![Colour Pallet](documentation/Project_colours.png)
+
+- #6e9075ff - This colour will be used as the main background colour.
+- #F5F5F5 - This colour will be used as background behind images in prize section.
+- #000000 - This colour will be used as text colour.
+- #3a3a3a - This colour will be used for box shadow.
+
+
 
 ### Structure
 
