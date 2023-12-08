@@ -193,7 +193,14 @@ nav {
     padding: 2px;
 }
 
-
+.reg-button {
+    margin-top: 2rem;
+    border-radius: 2px;
+    padding: 1.5rem 3.2rem;
+    font-size: 1.6rem;
+    background-color: var(--dark-black);
+    color: var(--white);
+}
 
 /* Footer Section */
 #social-networks {
