@@ -67,7 +67,20 @@ Welcome to the Midlands Golf Classic website. This site gives information about 
 
 ### Requirements
 
+* Easy to navigate on various screen sizes.
+* Clear information on the services provided.
+* Keep the user interested with the prizes to be won in the competetion.
+* Simple methods of contacting the club.
+* Visually inviting so users do not leave.
+
+
 ### Expectations
+
+* I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
+* I expect all links to social media sites to be opened in a new tab.
+* I expect all navigation links to work correctly.
+* I expect screen size not to affect the quality of the website.
+
 
 \
 &nbsp;
@@ -75,13 +88,13 @@ Welcome to the Midlands Golf Classic website. This site gives information about 
 \
 &nbsp;
 
-
-
 ### Fonts
 
 I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a text that best suits the feel of the website. For the main text I have chosen [Merienda](https://fonts.google.com/specimen/Merienda?preview.text=Golf%20Classic&query=merienda) as I feel it is has a sharp, simple and easy to read look.
 
 ### Icons
+
+I have used icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will be used where there is no explanation needed to their meaning, like the social media links and the hamburger icon for navigational links on smaller devices. Other icons are be used for style to the prize section headings.
 
 ### Colours
 
@@ -93,8 +106,6 @@ I have used [Coolers](https://coolors.co/ "Coolors") to help in the selection of
 - #F5F5F5 - This colour will be used as background behind images in prize section.
 - #000000 - This colour will be used as text colour.
 - #3a3a3a - This colour will be used for box shadow.
-
-
 
 ### Structure
 
