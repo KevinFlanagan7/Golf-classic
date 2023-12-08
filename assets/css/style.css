@@ -164,6 +164,10 @@ nav {
     padding: 2rem 6rem;
 }
 
+#register-form h2 {
+    margin-bottom: 1.2rem;
+}
+
 
 /* Footer Section */
 #social-networks {
