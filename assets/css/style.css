@@ -64,6 +64,23 @@ header {
     margin-bottom: 1rem;
 }
 
+/* Hero image section */
+#hero {
+    height: 60rem;
+    width: 100%;
+    background: url("../images/landing_page.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+.cover-text {
+    background-color: rgba(110, 144, 117, 0.8);
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    width: 70%;
+    padding: 1rem 0 1rem 1rem;
+}
+
 
 
 
