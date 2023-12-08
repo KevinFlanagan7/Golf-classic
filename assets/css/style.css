@@ -260,6 +260,11 @@ nav {
         display: none;
     }
 
+    /* Hero section */
+    .cover-text {
+    width: 50rem;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
