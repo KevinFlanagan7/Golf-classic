@@ -64,6 +64,30 @@ header {
     margin-bottom: 1rem;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: var(--dark-green);
+    width: 30%;
+    right: 0;
+    padding: 1rem 1rem 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle check box*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2.5rem;
+}
+
 /* Hero image section */
 #hero {
     height: 60rem;
