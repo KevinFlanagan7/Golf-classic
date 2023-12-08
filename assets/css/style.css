@@ -158,5 +158,18 @@ nav {
     line-height: 0;
 }
 
+/* Footer Section */
+#social-networks {
+    background-color: var(--dark-green);
+    text-align: center;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
-   
+#social-networks i {
+    font-size: 3rem;
+    padding: .5rem;
+    color: var(--dark-black);
+}
