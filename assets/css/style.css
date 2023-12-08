@@ -202,6 +202,12 @@ nav {
     color: var(--white);
 }
 
+/* location Map section */
+#map {
+    height: 40rem;
+    width: 100%;
+}
+
 /* Footer Section */
 #social-networks {
     background-color: var(--dark-green);
