@@ -122,6 +122,12 @@ nav {
     padding: 4rem 0 4rem 0;
 }
 
+/* Prizes Section */
+#prizes {
+    background-color: var(--white);
+    text-align: center;
+    padding-top: 1rem;
+}
 
 
 
