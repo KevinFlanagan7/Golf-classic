@@ -340,10 +340,20 @@ nav {
     .portugal {
         text-align: start;
     }
-    
+
     /* Registration and Map sections */
     #large-screen {
         display: flex;
+    }
+
+    #register,
+    #map-wrapper {
+        width: 50%;
+        box-shadow: 0 -2px 2px var(--shadow-gray) inset;
+    }
+
+    #register {
+        padding: 10rem;
     }
 }
 
