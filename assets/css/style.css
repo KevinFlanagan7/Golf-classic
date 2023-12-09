@@ -340,7 +340,11 @@ nav {
     .portugal {
         text-align: start;
     }
-
+    
+    /* Registration and Map sections */
+    #large-screen {
+        display: flex;
+    }
 }
 
 /* Large devices (Desktops, 1200px and up) */
