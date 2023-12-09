@@ -330,6 +330,17 @@ nav {
         padding: 2rem 0 4rem 0;
         width: 40%;
     }
+
+    /* Prize section */
+    .prize-images {
+        width: 80%;
+    }
+
+    .k-club,
+    .portugal {
+        text-align: start;
+    }
+
 }
 
 /* Large devices (Desktops, 1200px and up) */
