@@ -308,10 +308,28 @@ nav {
         padding: 0 5rem;
     }
 
+    /* Registration section */
+    #register {
+        padding: 2rem 20rem;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid var(--dark-black);
+    }
+
+    /* About section */
+    .history {
+        align-self: center;
+        padding-left: 10rem;
+    }
+
+    .ballinasloe-logo img {
+        padding: 2rem 0 4rem 0;
+        width: 40%;
+    }
 }
 
 /* Large devices (Desktops, 1200px and up) */
