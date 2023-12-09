@@ -364,6 +364,10 @@ nav {
     #map {
         box-shadow: .5rem -.5rem 2rem 1rem var(--shadow-gray);
     }
+    
+    .reg-button {
+        margin-top: 4rem;
+    }
 }
 
 /* Large devices (Desktops, 1200px and up) */
