@@ -401,7 +401,15 @@ nav {
         font-size: 2rem;
     }
 
+    /* Prize section */
+    .prizes {
+        font-size: 2rem;
+    }
 
+    /* Registration section */
+    #register {
+        padding: 10rem 20rem 0 10rem;
+    }
 }
 
 
