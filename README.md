@@ -218,6 +218,29 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### About Section
 
++ The about section gives a brief history of the Golf club along with details of the competition format and the prizes to be won. The golf club crest is also added and adds to the user viewing experienxe espectially on the larger screen sizes.
+    \
+    &nbsp;
+
+    *Phone*
+
+    ![About Section on Phone](documentation/About_phone.png)
+    \
+    &nbsp;
+
+
+    *Larger screen size*
+    
+    ![About Section on larger screen sizes](documentation/About_large.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ### Gallery Section
 
 ### Sign Up Section
