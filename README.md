@@ -4,7 +4,7 @@
 
 Welcome to the Midlands Golf Classic website. This site gives information about the golf classic competetion, the location and the prizes to be won. It also gives the ability to make contact with the club easily through social media or directly via the registration form.
 
-![Responsive Displays]()
+![Responsive Displays](documentation/amiresponsive.png)
 
 # Table of Contents
 
