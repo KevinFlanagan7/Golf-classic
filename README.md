@@ -351,6 +351,19 @@ The site responds nicely to all different screen sizes, the images look clean an
 - HTML (signup.html) validator [results](documentation/signup.html.png)
 - CSS validator [results](documentation/style.css.png)
 
+- Using Mobile Simulator extension in Google Chrome I have tested the website on differite devices. Test results are listed below.
+
+| Device                | Responsive >=768px | Responsive <768px | Links/URLs work | Images Work   |
+| --------------------- | ------------------ | ----------------- | --------------- | ------------- |
+| Galaxy S9+            | N/A                | Good              | Passed          | Passed        |
+| Galaxy S5             | N/A                | Good              | Passed          | Passed        |
+| iPhone 6/7/8          | N/A                | Good              | Passed          | Passed        |
+| iPad                  | Good               | N/A               | Passed          | Passed        |
+| iPad Pro              | Good               | N/A               | Passed          | Passed        |
+| Desktop 1024px        | Good               | N/A               | Passed          | Passed        |
+| Desktop > 1200px      | Good               | N/A               | Passed          | Passed        |
+
+
 ## Unfixed Bugs
 
 The Hamburger menu selector for smaller devices does not close when a menu is selected. To enable this it would need JavaScript which I have not covered yet.
