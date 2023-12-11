@@ -119,7 +119,7 @@ nav {
 
 .ballinasloe-logo img {
     width: 50%;
-    padding: 4rem 0 4rem 0;
+    padding: 4rem 0 2rem 0;
 }
 
 /* Prizes Section */
@@ -276,7 +276,7 @@ nav {
 
     /* Hero section */
     .cover-text {
-    width: 50%;
+    width: 50rem;
     }
 
     /* About section */
