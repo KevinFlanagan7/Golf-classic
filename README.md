@@ -350,6 +350,8 @@ The site responds nicely to all different screen sizes, the images look clean an
 - HTML (index.html) validator [results](documentation/index.html.png)
 - HTML (signup.html) validator [results](documentation/signup.html.png)
 - CSS validator [results](documentation/style.css.png)
+- Lighthouse tests for mobile [results](documentation/lighthouse_mobile.png)
+- Lighthouse tests for desktop [results](documentation/lighthouse_desktop.png)
 
 - Using Mobile Simulator extension in Google Chrome I have tested the website on differite devices. Test results are listed below.
 
