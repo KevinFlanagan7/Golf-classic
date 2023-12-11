@@ -345,11 +345,21 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 # Testing
 
+The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes with very little, large blank spaces. It allows the user to navigate around easily and aslo make contact via the sign up form or social media links. The content is simple and to the point.
+
 - HTML (index.html) validator [results](documentation/index.html.png)
 - HTML (signup.html) validator [results](documentation/signup.html.png)
 - CSS validator [results](documentation/style.css.png)
 
 ## Unfixed Bugs
+
+The Hamburger menu selector for smaller devices does not close when a menu is selected. To enable this it would need JavaScript which I have not covered yet.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 # Deployment
 
