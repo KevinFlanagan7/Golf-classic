@@ -1,3 +1,5 @@
+![Logo](documentation/logo.png)
+
 # Midland Golf Classic
 
 # Goal for this Project
