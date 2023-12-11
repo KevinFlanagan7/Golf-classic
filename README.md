@@ -170,7 +170,11 @@ The wireframes are below:
 
 ## Tools
 
-# Testing    |
+# Testing
+
+- HTML (index.html) validator [results](documentation/index.html.png)
+- HTML (signup.html) validator [results](documentation/signup.html.png)
+- CSS validator [results](documentation/style.css.png)
 
 ## Unfixed Bugs
 
