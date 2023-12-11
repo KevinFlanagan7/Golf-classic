@@ -268,6 +268,34 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Sign Up Section
 
++ The sign up section allows the user to quickly submit the registration for the competition draw and a calender date selecter to select which day to play. It also has a map of the location of the club base.
+    \
+    &nbsp;
+
+    ![Registration Section](documentation/signup.png)
+    \
+    &nbsp;
+
++ The text fields are all required fields and will not alow the user to submit until they are completed, this includes a validation on the email to ensure it is in a valid format.
+    \
+    &nbsp;
+
+    ![Registration Section](documentation/required_field.png)
+    \
+    &nbsp;
+
++ On submission of the form, the user is bought to a page confirming that their details were received and that contact will be made when draw has been completed. There is also a link back to the home page.
+    \
+    &nbsp;
+
+    ![Registration Section](documentation/signup_page.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ### Footer
 
 ## Features to be Implemented
