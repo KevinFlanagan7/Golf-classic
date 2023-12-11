@@ -243,6 +243,29 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Gallery Section
 
++ The Gallery section displays photos of the golf course in a column for small screens and in a row of three for larger screen sizes.
+    \
+    &nbsp;
+
+    *Phone*
+
+    ![About Section on Phone](documentation/gallery_phone.png)
+    \
+    &nbsp;
+
+
+    *Larger screen size*
+    
+    ![About Section on larger screen sizes](documentation/gallery_large.png)
+    \
+    &nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ### Sign Up Section
 
 ### Footer
