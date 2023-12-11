@@ -298,6 +298,15 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Footer
 
++ The footer contains the social media links related to the Golf club. These social links all open in a new tab for ease of use and the ability to easily come back to Golf classic site for the user.
+    \
+    &nbsp;
+
+    ![Footer Section](documentation/footer.png)
+    \
+    &nbsp;
+
+
 ## Features to be Implemented
 
 # Technologies used
