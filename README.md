@@ -393,6 +393,11 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 
 # Credits
 
+For help and advice:
+
+- [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+
+For navigation checkbox toggle and footer:
 
 
 
