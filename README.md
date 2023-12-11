@@ -149,6 +149,55 @@ The wireframes are below:
 ## Existing Features
 
 ### Navigation Bar
+
+The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the Golf classic header doubles as a link back to the home screen.
+
++ Large Desktop screens (>=992px)
+\
+&nbsp;
+
+    - Spanning the full width of the device and with all navigational links (Home, About, Gallery, Sign up (Registration page)), this gives ease and clear use to the end user.
+
+        ![Navigation bar](documentation/navbar_large.png)
+
+    - In order for the user to visably see which of the links they are hovering over there is a bar below the text.
+
+        ![Navigation bar on hover](documentation/navbar_large_hover.png)
+\
+&nbsp;
+    
+    
++ iPad devices (<992px)
+\
+&nbsp;
+        
+    - Like the desktop this also spans the full width of the device and with all navigational links (Home, About, Gallery, Sign up (Registration page)).
+
+        ![Nav bar on iPad devices](documentation/navbar_large.png)
+\
+&nbsp;
+
+
+- Phone devises (>768px)
+\
+&nbsp;
+        
+    - To save screen space the navigational menu takes on the burger style.
+
+        ![Navigation bar](documentation/navbar_large_small.png)
+
+    - When pressed, it opens up the main menu with all the links available.
+
+        ![Navigation bar on hover](documentation/navbar_large_small_menu.png)
+\
+&nbsp;
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp; 
+
     
 ### Landing Page
 
