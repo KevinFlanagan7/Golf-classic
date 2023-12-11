@@ -380,14 +380,12 @@ The Hamburger menu selector for smaller devices does not close when a menu is se
 
 Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
-+ Navigate to the repository on github and click 'Settings'.
-+ Then select 'Pages' on the side navigation.
-+ In build and deployment select the main branch.
-+ Select the /(root) folder.
-+ Click on the 'Save' button.
-+ Go back to code page.
-+ Click on github-pages under deployments on right-hand side.
-+ Click on link, website is now live. 
++ Navigate to the repository on github and click **Settings**.
++ Then select **Pages** on the side navigation.
++ In build and deployment select the **main** branch.
++ Select the **/(root)** folder.
++ Click on the **Save** button.
++ Website is now live at https://kevinflanagan7.github.io/Golf-classic/index.html. 
 + If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 
