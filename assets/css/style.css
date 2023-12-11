@@ -11,6 +11,8 @@
 /* With Font size of 62.5%, 1rem equals 10px */
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
 }
 
 /* Sets colours throughout website */
@@ -252,6 +254,10 @@ nav {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    html {
+        scroll-padding-top: 8rem;
+    }
+
     nav {
         display: block;
         position: relative;
