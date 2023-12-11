@@ -201,6 +201,21 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     
 ### Landing Page
 
++ The landing page image
+    - The image gives the user instant knowledge of what is involved in the site, and with the high defintion of the foreground it draws their eye to the golf ball in the grass and the cover text box.
+
+    - The text gives instant information to the user on what the competetion is and when it is on.  
+\
+&nbsp;
+
+    ![Landing Page](documentation/Landing_page.png)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 ### About Section
 
 ### Gallery Section
