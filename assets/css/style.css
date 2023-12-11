@@ -202,6 +202,20 @@ nav {
     color: var(--white);
 }
 
+.sign-up {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--dark-green);
+    color: var(--dark-black);
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 25rem;
+}
+
+.home-link {
+    font-size: 1.6rem;
+}
+
 /* location Map section */
 #map {
     height: 40rem;
@@ -312,6 +326,14 @@ nav {
     #register {
         padding: 2rem 20rem;
     }
+
+    .sign-up {
+        font-size: 3rem;
+    }
+
+    .home-link {
+        font-size: 2rem;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -409,6 +431,14 @@ nav {
     /* Registration section */
     #register {
         padding: 10rem 20rem 0 10rem;
+    }
+
+    .sign-up {
+        font-size: 4rem;
+    }
+
+    .home-link {
+        font-size: 2.5rem;
     }
 }
 
