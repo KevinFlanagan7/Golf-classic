@@ -235,6 +235,8 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
++ For larger screen sizes I used flexbox to align the elements along the horizontal so there is no excess empyt spaces which makes for a better user experience.
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
