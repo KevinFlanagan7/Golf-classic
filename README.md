@@ -309,8 +309,9 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ## Features to be Implemented
 
-+ Contact form to send registration to the Golf club instead of leading to the dummy page.
++ Registration form to be sent to the Golf club instead of leading to the dummy page.
 + Links to competetion sponsors websites.
++ Links to accomodation and things to do in the Midlands.
 
 \
 &nbsp;
@@ -333,9 +334,11 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 * [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview "Lighthouse")
 * [Coolers](https://coolors.co/ "Coolers")
 * [Unsplash](https://unsplash.com/ "Unsplash")
 * [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com")
+* [Am I Responsive](https://ui.dev/amiresponsive "Am I Responsive")
 
 \
 &nbsp;
@@ -345,12 +348,12 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 # Testing
 
-The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little, large blank spaces. It allows the user to navigate around easily and aslo make contact via the sign up form or social media links. The content is simple and to the point.
+The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little blank spaces. It allows the user to navigate around easily and aslo make contact via the sign up form or social media links. The content is simple and to the point.
 
 - I had issues with the navigation menu bar when testing as it was scrolling too far past the About, Gallery and Registration sections. After some research on the internet I found the scroll-padding-top code which i used to resolve the problem. 
 - While researching for the above problem I also found the scroll behavior code and also used this and set it to smooth for a better user experience.
 - I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by nearly 100 lines and improved the lighthouse performance results.
-- When I was validating index.html file, I had 2 errors showing. It reported that two sections (Registration and location map) were missing headings. I added headings and a class to these sections and then set up a style rule to hide the headings class in style.css.
+- When I was validating index.html file, I had 2 errors showing. It reported that two sections (Registration and location map) were missing headings. I added headings and a class to these sections and then set up a css style rule to hide the headings.
 - The results of my validation for html and css files are below.
     - HTML (index.html) validator [results](documentation/index.html.png)
     - HTML (signup.html) validator [results](documentation/signup.html.png)
@@ -373,7 +376,7 @@ The site responds nicely to all different screen sizes, the images look sharp on
 
 ## Unfixed Bugs
 
-The Hamburger menu selector for smaller devices does not close when a menu is selected. To enable this it would need JavaScript which I have not covered yet.
+The Hamburger menu selector for smaller devices does not close when a menu item is selected. To enable this it would need JavaScript which I have not covered yet.
 
 \
 &nbsp;
@@ -401,6 +404,16 @@ For help and advice:
 - [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 
 For navigation checkbox toggle and footer:
+
+- [Love Running Project From Codeinstitute](https://codeinstitute.net "Love Running Project")
+
+For scrool padding
+
+- [Youtube](https://www.youtube.com/watch?v=iGUSTyG-CYw "Youtube")
+
+For Gallery Images and Crest
+
+- [Ballinasloe Golf Club](https://www.ballinasloegolfclub.ie/ "Ballinasloe Golf Club")
 
 
 
