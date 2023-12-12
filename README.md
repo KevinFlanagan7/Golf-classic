@@ -363,17 +363,25 @@ The site responds nicely to all different screen sizes, the images look sharp on
 - Lighthouse tests for mobile [results](documentation/lighthouse_mobile.png)
 - Lighthouse tests for desktop [results](documentation/lighthouse_desktop.png)
 
-- Using Mobile Simulator extension in Google Chrome I have tested the website on differite devices. Test results are listed below.
+- Using Mobile Simulator extension in Google Chrome I have tested the website's responsiveness and features on different devices. Test results are listed below.
 
-| Device                | Responsive >=768px | Responsive <768px | Links/URLs work | Images Work   |
-| --------------------- | ------------------ | ----------------- | --------------- | ------------- |
-| Galaxy S9+            | N/A                | Good              | Passed          | Passed        |
-| Galaxy S5             | N/A                | Good              | Passed          | Passed        |
-| iPhone 6/7/8          | N/A                | Good              | Passed          | Passed        |
-| iPad                  | Good               | N/A               | Passed          | Passed        |
-| iPad Pro              | Good               | N/A               | Passed          | Passed        |
-| Desktop 1024px        | Good               | N/A               | Passed          | Passed        |
-| Desktop > 1200px      | Good               | N/A               | Passed          | Passed        |
+| Device                | Responsive >=768px | Responsive <768px | Links/URLs work | Images Work   | Submit button |
+| --------------------- | ------------------ | ----------------- | --------------- | ------------- | ------------- |
+| Galaxy S9+            | N/A                | Good              | Passed          | Passed        | Passed        |
+| Galaxy S5             | N/A                | Good              | Passed          | Passed        | Passed        |
+| iPhone 6/7/8          | N/A                | Good              | Passed          | Passed        | Passed        |
+| iPad                  | Good               | N/A               | Passed          | Passed        | Passed        |
+| iPad Pro              | Good               | N/A               | Passed          | Passed        | Passed        |
+| Desktop 1024px        | Good               | N/A               | Passed          | Passed        | Passed        |
+| Desktop > 1200px      | Good               | N/A               | Passed          | Passed        | Passed        |
+
+- Browser Compatibility tests
+
+| Browser               | Intented Appearance | Intented Responsiveness | 
+| --------------------- | ------------------- | ----------------------- |
+| Chrome                | Good                | Good                    | 
+| Edge                  | Good                | Good                    | 
+| Firefox               | Good                | Good                    |
 
 
 ## Unfixed Bugs
