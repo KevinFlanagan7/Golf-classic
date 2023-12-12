@@ -4,7 +4,7 @@
 
 # Goal for this Project
 
-Welcome to the Midlands Golf Classic website. This site gives information about the golf classic competetion, the location and the prizes to be won. It also gives the ability to make contact with the club easily through social media or directly via the registration form.
+Welcome to the Midlands Golf Classic website. This site's goal is to promote the upcoming golf classic competetion. It gives details about the competition and the club, the location of the club and the great prizes to be won. It also gives the ability to make contact with the golf club easily through social media or directly via the registration form.
 
 ![Responsive Displays](documentation/amiresponsive.png)
 
@@ -60,7 +60,7 @@ Welcome to the Midlands Golf Classic website. This site gives information about 
 * As a user, I want to be able to make contact with the club via several different methods, i.e. social media.
 * As a user, I want to be able to easily navigate through the website.
 * As a user, I want to know where the club is based.
-* As a user, I want to know what event is taking place.
+* As a user, I want to know what event is taking place and when.
 
 ## Site owners Goals
 * Promote the golf classic competition.
@@ -82,7 +82,6 @@ Welcome to the Midlands Golf Classic website. This site gives information about 
 * I expect all links to social media sites to be opened in a new tab.
 * I expect all navigation links to work correctly.
 * I expect screen size not to affect the quality of the website.
-
 
 \
 &nbsp;
@@ -154,7 +153,7 @@ The wireframes are below:
 
 The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the Golf classic header doubles as a link back to the home screen.
 
-+ Large Desktop screens (>=992px)
++ Large Desktop screens (>=1200px)
 \
 &nbsp;
 
@@ -199,8 +198,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 [Back to Top](#table-of-contents)
 \
 &nbsp; 
-
-    
+  
 ### Landing Page
 
 + The landing page image
@@ -347,11 +345,16 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 # Testing
 
-The site responds nicely to all different screen sizes, the images look clean and sharp on all device sizes with very little, large blank spaces. It allows the user to navigate around easily and aslo make contact via the sign up form or social media links. The content is simple and to the point.
+The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little, large blank spaces. It allows the user to navigate around easily and aslo make contact via the sign up form or social media links. The content is simple and to the point.
 
-- HTML (index.html) validator [results](documentation/index.html.png)
-- HTML (signup.html) validator [results](documentation/signup.html.png)
-- CSS validator [results](documentation/style.css.png)
+- I had issues with the navigation menu bar when testing as it was scrolling too far past the About, Gallery and Registration sections. After some research on the internet I found the scroll-padding-top code which i used to resolve the problem. 
+- While researching for the above problem I also found the scroll behavior code and also used this and set it to smooth for a better user experience.
+- I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by nearly 100 lines and improved the lighthouse performance results.
+- When I was validating index.html file, I had 2 errors showing. It reported that two sections (Registration and location map) were missing headings. I added headings and a class to these sections and then set up a style rule to hide the headings class in style.css.
+- The results of my validation for html and css files are below.
+    - HTML (index.html) validator [results](documentation/index.html.png)
+    - HTML (signup.html) validator [results](documentation/signup.html.png)
+    - CSS validator [results](documentation/style.css.png)
 - Lighthouse tests for mobile [results](documentation/lighthouse_mobile.png)
 - Lighthouse tests for desktop [results](documentation/lighthouse_desktop.png)
 
