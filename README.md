@@ -132,7 +132,7 @@ I have used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframe
 
 The wireframes are below:
 
-### [Phone Wireframes](<documentation/Phone Wireframe.png>)
+### [Phone Wireframe](<documentation/Phone Wireframe.png>)
 
 ### [Tablet Wireframe](<documentation/Tablet Wireframe.png>)
 
