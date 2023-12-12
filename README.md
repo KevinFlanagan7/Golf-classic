@@ -228,14 +228,13 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
-
     *Larger screen size*
     
     ![About Section on larger screen sizes](documentation/About_large.png)
     \
     &nbsp;
 
-+ For larger screen sizes I used flexbox to align the elements along the horizontal so there is no excess empyt spaces which makes for a better user experience.
++ For larger screen sizes I used flexbox to align the elements along the horizontal so there is no excess empty spaces which makes for a better user experience.
 
 \
 &nbsp;
@@ -270,7 +269,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Sign Up Section
 
-+ The sign up section allows the user to quickly submit the registration for the competition draw and a calender date selecter to select which day to play. It also has a map of the location of the club base.
++ The sign up section allows the user to quickly submit the registration for the competition draw and a calender date selecter to select which day to play. It also has a map of the location of the club base. On larger screen sizes the map is centered and has a box shadow to provide a better user experience.
     \
     &nbsp;
 
@@ -286,7 +285,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
-+ On submission of the form, the user is bought to a page confirming that their details were received and that contact will be made when draw has been completed. There is also a link back to the home page.
++ On submission of the form, the user is brought to a page confirming that their details were received and that contact will be made when draw has been completed. There is also a link back to the home page.
     \
     &nbsp;
 
@@ -338,7 +337,6 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview "Lighthouse")
 * [Coolers](https://coolors.co/ "Coolers")
-* [Unsplash](https://unsplash.com/ "Unsplash")
 * [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com")
 * [Am I Responsive](https://ui.dev/amiresponsive "Am I Responsive")
 
@@ -357,25 +355,25 @@ The site responds nicely to all different screen sizes, the images look sharp on
 - I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by nearly 100 lines and improved the lighthouse performance results.
 - When I was validating index.html file, I had 2 errors showing. It reported that two sections (Registration and location map) were missing headings. I added headings and a class to these sections and then set up a css style rule to hide the headings.
 - The results of my validation for html and css files are below.
-    - HTML (index.html) validator [results](documentation/index.html.png)
-    - HTML (signup.html) validator [results](documentation/signup.html.png)
-    - CSS validator [results](documentation/style.css.png)
+    - HTML (index.html) validator [results](documentation/index.html.png "W3C HTML")
+    - HTML (signup.html) validator [results](documentation/signup.html.png "W3C HTML")
+    - CSS validator [results](documentation/style.css.png "W3C CSS")
 - Lighthouse tests for mobile [results](documentation/lighthouse_mobile.png)
 - Lighthouse tests for desktop [results](documentation/lighthouse_desktop.png)
 
 - Using Mobile Simulator extension in Google Chrome I have tested the website's responsiveness and features on different devices. Test results are listed below.
 
-| Device                | Responsive >=768px | Responsive <768px | Links/URLs work | Images Work   | Submit button |
-| --------------------- | ------------------ | ----------------- | --------------- | ------------- | ------------- |
-| Galaxy S9+            | N/A                | Good              | Passed          | Passed        | Passed        |
-| Galaxy S5             | N/A                | Good              | Passed          | Passed        | Passed        |
-| iPhone 6/7/8          | N/A                | Good              | Passed          | Passed        | Passed        |
-| iPad                  | Good               | N/A               | Passed          | Passed        | Passed        |
-| iPad Pro              | Good               | N/A               | Passed          | Passed        | Passed        |
-| Desktop 1024px        | Good               | N/A               | Passed          | Passed        | Passed        |
-| Desktop > 1200px      | Good               | N/A               | Passed          | Passed        | Passed        |
+| Device                | Responsive >=768px | Responsive <768px | Links/URLs work | Images Work   | Submit button | Hamburger Menu |
+| --------------------- | ------------------ | ----------------- | --------------- | ------------- | ------------- | -------------- |
+| Galaxy S9+            | N/A                | Good              | Passed          | Passed        | Passed        | Passed         |
+| Galaxy S5             | N/A                | Good              | Passed          | Passed        | Passed        | Passed         |
+| iPhone 6/7/8          | N/A                | Good              | Passed          | Passed        | Passed        | Passed         |
+| iPad                  | Good               | N/A               | Passed          | Passed        | Passed        | N/A            |
+| iPad Pro              | Good               | N/A               | Passed          | Passed        | Passed        | N/A            |
+| Desktop 1024px        | Good               | N/A               | Passed          | Passed        | Passed        | N/A            |
+| Desktop > 1200px      | Good               | N/A               | Passed          | Passed        | Passed        | N/A            |
 
-- Browser Compatibility tests
+- Browser Compatibility tests.
 
 | Browser               | Intented Appearance | Intented Responsiveness | 
 | --------------------- | ------------------- | ----------------------- |
