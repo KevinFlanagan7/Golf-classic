@@ -396,6 +396,12 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + Website is now live at https://kevinflanagan7.github.io/Golf-classic/index.html. 
 + If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
 
 # Credits
 
@@ -417,6 +423,12 @@ For Landing page image
 For Gallery Images and Crest
 
 - [Ballinasloe Golf Club](https://www.ballinasloegolfclub.ie/ "Ballinasloe Golf Club")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
 
 
