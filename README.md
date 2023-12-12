@@ -411,6 +411,9 @@ For scrool padding
 
 - [Youtube](https://www.youtube.com/watch?v=iGUSTyG-CYw "Youtube")
 
+For Landing page image
+- [Pinterest](https://www.pinterest.ie/pin/758926974676546644 "Pinterest")
+
 For Gallery Images and Crest
 
 - [Ballinasloe Golf Club](https://www.ballinasloegolfclub.ie/ "Ballinasloe Golf Club")
