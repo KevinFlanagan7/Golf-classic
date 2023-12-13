@@ -2,13 +2,13 @@
 
 # Midland Golf Classic
 
-# Goal for this Project
+## Goal for this Project
 
 Welcome to the Midlands Golf Classic website. This site's goal is to promote the upcoming golf classic competetion. It gives details about the competition and the club, the location of the club and the great prizes to be won. It also gives the ability to make contact with the golf club easily through social media or directly via the registration form.
 
 ![Responsive Displays](documentation/amiresponsive.png)
 
-# Table of Contents
+## Table of Contents
 
 - [Midland Golf Classic](#midland-golf-classic)
 - [Goal for this Project](#goal-for-this-project)
@@ -44,7 +44,7 @@ Welcome to the Midlands Golf Classic website. This site's goal is to promote the
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-# UX
+## UX
 
 ## User Goals
 
@@ -103,7 +103,7 @@ I have used [Coolers](https://coolors.co/ "Coolors") to help in the selection of
 
 ![Colour Pallet](documentation/Project_colours.png)
 
-- #6e9075ff - This colour will be used as the main background colour.
+- #6e9075 - This colour will be used as the main background colour.
 - #F5F5F5 - This colour will be used as background behind images in prize section.
 - #000000 - This colour will be used as text colour.
 - #3a3a3a - This colour will be used for box shadow.
@@ -145,7 +145,7 @@ The wireframes are below:
 &nbsp;
 
 
-# Features
+## Features
 
 ## Existing Features
 
@@ -331,7 +331,6 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 ## Tools
-* [VS code](https://code.visualstudio.com/ "VS code")
 * [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
@@ -346,7 +345,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 \
 &nbsp;
 
-# Testing
+## Testing
 
 The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little blank spaces. It allows the user to navigate around easily and aslo make contact via the sign up form or social media links. The content is simple and to the point.
 
@@ -361,7 +360,7 @@ The site responds nicely to all different screen sizes, the images look sharp on
 - Lighthouse tests for mobile [results](documentation/lighthouse_mobile.png)
 - Lighthouse tests for desktop [results](documentation/lighthouse_desktop.png)
 
-- Using Mobile Simulator extension in Google Chrome I have tested the website's responsiveness and features on different devices. Test results are listed below.
+- Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness and features on different devices. Test results are listed below.
 
 | Device                | Responsive >=768px | Responsive <768px | Links/URLs work | Images Work   | Submit button | Hamburger Menu |
 | --------------------- | ------------------ | ----------------- | --------------- | ------------- | ------------- | -------------- |
