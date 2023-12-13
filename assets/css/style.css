@@ -216,7 +216,7 @@ nav {
     padding-top: 25rem;
 }
 
-.fa-house {
+.home-link i {
     font-size: 6rem;
     color: var(--shadow-gray);
 }
