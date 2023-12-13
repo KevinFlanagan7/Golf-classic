@@ -216,8 +216,9 @@ nav {
     padding-top: 25rem;
 }
 
-.home-link {
-    font-size: 1.6rem;
+.fa-house {
+    font-size: 6rem;
+    color: var(--shadow-gray);
 }
 
 /* location Map section */
