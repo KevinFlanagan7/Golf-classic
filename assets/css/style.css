@@ -252,6 +252,11 @@ nav {
         column-count: 3;
         column-gap: 0;
     }
+
+    #register {
+        padding: 2rem 14rem;
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up) */
