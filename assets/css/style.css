@@ -1,7 +1,14 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* Sets colours throughout website */
+:root {
+    --dark-green: #6e9075ff;
+    --dark-black: #000000;
+    --white: #F5F5F5;
+    --shadow-gray: #3a3a3a;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -13,14 +20,6 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 2.5rem;
-}
-
-/* Sets colours throughout website */
-:root {
-    --dark-green: #6e9075ff;
-    --dark-black: #000000;
-    --white: #F5F5F5;
-    --shadow-gray: #3a3a3a;
 }
 
 /* General body and header styles */
@@ -45,6 +44,16 @@ header {
     align-items: baseline;
 }
 
+nav {
+    position: absolute;
+    background-color: var(--dark-green);
+    width: 30%;
+    right: 0;
+    padding: 1rem 1rem 0 1rem;
+    display: none;
+    top: 100%;
+}
+
 #menu {
     letter-spacing: 1px;
     list-style-type: none;
@@ -62,17 +71,6 @@ header {
 
 .menu-list {
     margin-bottom: 1rem;
-}
-
-/* Navbar styles with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: var(--dark-green);
-    width: 30%;
-    right: 0;
-    padding: 1rem 1rem 0 1rem;
-    display: none;
-    top: 100%;
 }
 
 /* Nav toggle check box */
@@ -249,6 +247,7 @@ nav {
 
 /* Media query: large or landscape phones (576px and up) Masonary view */
 @media screen and (min-width: 576px) {
+
     .photos {
         column-count: 3;
         column-gap: 0;
@@ -262,6 +261,7 @@ nav {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     html {
         scroll-padding-top: 6rem;
     }
@@ -356,6 +356,7 @@ nav {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    
     #menu a:hover {
         border-bottom: 1px solid var(--dark-black);
     }
