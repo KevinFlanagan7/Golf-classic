@@ -157,11 +157,11 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 \
 &nbsp;
 
-    - Spanning the full width of the device and with all navigational links (Home, About, Gallery, Sign up (Registration page)), this gives ease and clear use to the end user.
+    - Spanning the full width of the device and with all navigational links to Home, About, Prizes, Gallery and Sign up sections. This gives ease and clear use to the end user.
 
         ![Navigation bar](documentation/navbar_large.png)
 
-    - In order for the user to visably see which of the links they are hovering over there is a bar below the text.
+    - In order for the user to visably see which of the links they are hovering over there is a bar below the text when hovered over.
 
         ![Navigation bar on hover](documentation/navbar_large_hover.png)
 \
@@ -172,24 +172,24 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 \
 &nbsp;
         
-    - Like the desktop this also spans the full width of the device and with all navigational links (Home, About, Gallery, Sign up (Registration page)).
+    - Like the desktop this also spans the full width of the device and with all navigational links Home, About, Prize, Gallery, Sign up sections.
 
-        ![Nav bar on iPad devices](documentation/navbar_large.png)
+        ![Nav bar on iPad devices](documentation/navbar_iPad.png)
 \
 &nbsp;
 
 
-- Phone devises (>768px)
+- Phone devises (<768px)
 \
 &nbsp;
         
     - To save screen space the navigational menu takes on the burger style.
 
-        ![Navigation bar](documentation/navbar_large_small.png)
+        ![Navigation bar](documentation/navbar_small.png)
 
-    - When pressed, it opens up the main menu with all the links available.
+    - When pressed, it opens up the main menu list with links to all sections of page..
 
-        ![Navigation bar on hover](documentation/navbar_large_small_menu.png)
+        ![Navigation bar on hover](documentation/navbar_small_menu.png)
 \
 &nbsp;
 
@@ -208,7 +208,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 \
 &nbsp;
 
-    ![Landing Page](documentation/Landing_page.png)
+    ![Landing Page](/documentation/Landing_page.png)
 
 \
 &nbsp;
