@@ -64,7 +64,7 @@ nav {
     text-decoration: none;
 }
 
-.header-style {
+.headings {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -114,7 +114,7 @@ nav {
     padding: 1rem;  
 }
 
-.style-h2 {
+.headings-h2 {
     margin-top: 1rem;
     font-size: 3rem;
 }
@@ -390,7 +390,7 @@ nav {
     }
 
     /* Registration and Map sections */
-    #large-screen {
+    #registration {
         display: flex;
     }
 
@@ -434,7 +434,7 @@ nav {
     }
 
     /* About section */
-    .style-h2 {
+    .headings-h2 {
         font-size: 4rem;
     }
 
