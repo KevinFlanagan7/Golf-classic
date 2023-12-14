@@ -111,7 +111,7 @@ nav {
 #about {
     background-color: var(--dark-green);
     text-align: center;
-    padding: 1rem;  
+    padding: 1rem;
 }
 
 .headings-h2 {
@@ -258,7 +258,6 @@ nav {
     #register {
         padding: 2rem 14rem;
     }
-
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -296,7 +295,7 @@ nav {
 
     /* Hero section */
     .hero-cover-text {
-    width: 30%;
+        width: 30%;
     }
 
     /* About section */
@@ -304,7 +303,8 @@ nav {
         display: flex;
     }
 
-    .history, .club-crest {
+    .history,
+    .club-crest {
         width: 50%;
     }
 
@@ -355,7 +355,7 @@ nav {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    
+
     .nav-links:hover {
         border-bottom: 1px solid var(--dark-black);
     }
@@ -363,7 +363,7 @@ nav {
     /* Hero section */
     .hero-cover-text {
         width: 25%;
-        }
+    }
 
     /* About section */
     .history {
@@ -409,21 +409,22 @@ nav {
     #map {
         box-shadow: .5rem -.5rem 2rem 1rem var(--shadow-gray);
     }
-    
+
     .reg-button {
         margin-top: 4rem;
     }
 }
 
 /* Large devices (Desktops, 1200px and up) */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
+
     #logo {
-        font-size: 4rem;   
+        font-size: 4rem;
     }
 
     nav {
         font-size: 2rem;
-        padding-right: 2rem;   
+        padding-right: 2rem;
     }
 
     .menu-list {
@@ -461,5 +462,3 @@ nav {
         padding: 20rem 4rem;
     }
 }
-
-
