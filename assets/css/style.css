@@ -166,7 +166,7 @@ nav {
     padding: 2rem 6rem;
 }
 
-#register-form h2 {
+#reg-heading {
     margin-bottom: 1.2rem;
 }
 
@@ -184,7 +184,7 @@ nav {
     margin-top: 2rem;
 }
 
-#calendar label {
+.date-label {
     padding-right: 1rem;
 }
 
