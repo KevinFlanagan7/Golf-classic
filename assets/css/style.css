@@ -94,7 +94,7 @@ nav {
     position: relative;
 }
 
-.cover-text {
+.hero-cover-text {
     background-color: rgba(110, 144, 117, 0.8);
     position: absolute;
     bottom: 2rem;
@@ -295,7 +295,7 @@ nav {
     }
 
     /* Hero section */
-    .cover-text {
+    .hero-cover-text {
     width: 30%;
     }
 
@@ -365,7 +365,7 @@ nav {
     }
 
     /* Hero section */
-    .cover-text {
+    .hero-cover-text {
         width: 25%;
         }
 
