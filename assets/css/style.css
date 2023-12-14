@@ -212,7 +212,7 @@ nav {
     color: var(--dark-black);
     font-size: 2.3rem;
     text-align: center;
-    padding-top: 10rem;
+    padding: 10rem 1rem;
 }
 
 .home-icon {
@@ -232,7 +232,7 @@ nav {
 }
 
 /* Footer Section */
-#social-networks {
+#social-media {
     background-color: var(--dark-green);
     text-align: center;
     padding: 2rem 0;
@@ -241,7 +241,7 @@ nav {
     list-style-type: none;
 }
 
-#social-networks i {
+.social-media-icons {
     font-size: 3rem;
     padding: .5rem;
     color: var(--dark-black);
@@ -349,11 +349,7 @@ nav {
 
     .sign-up {
         font-size: 3rem;
-        padding-top: 15rem;
-    }
-
-    .home-link {
-        font-size: 2rem;
+        padding: 15rem 2rem;
     }
 }
 
@@ -462,11 +458,7 @@ nav {
 
     .sign-up {
         font-size: 4rem;
-        padding-top: 20rem;
-    }
-
-    .home-link {
-        font-size: 2.5rem;
+        padding: 20rem 4rem;
     }
 }
 
