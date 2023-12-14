@@ -87,7 +87,7 @@ nav {
 }
 
 /* Hero image section */
-#hero {
+#hero-image {
     height: 66rem;
     width: 100%;
     background: url("../images/landing_page.jpg") no-repeat center center/cover;
@@ -119,7 +119,7 @@ nav {
     font-size: 3rem;
 }
 
-.crest-img {
+.crest-image {
     width: 50%;
     padding: 4rem 0 2rem 0;
 }
@@ -308,7 +308,7 @@ nav {
         width: 50%;
     }
 
-    .crest-img {
+    .crest-image {
         padding: 0 0 1rem 0;
     }
 
@@ -356,7 +356,7 @@ nav {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     
-    #menu a:hover {
+    .nav-links:hover {
         border-bottom: 1px solid var(--dark-black);
     }
 
@@ -371,7 +371,7 @@ nav {
         padding-left: 10rem;
     }
 
-    .crest-img {
+    .crest-image {
         padding: 2rem 0 4rem 0;
         width: 40%;
     }
@@ -435,7 +435,7 @@ nav {
         font-size: 4rem;
     }
 
-    .crest-img {
+    .crest-image {
         padding: 2rem 0 4rem 0;
         width: 40%;
     }
