@@ -151,13 +151,13 @@ nav {
     padding-top: 1rem;
 }
 
-.photos img {
-    width: 100%;
-    line-height: 1.6rem;
+.photos-container {
+    line-height: 0;
 }
 
 .photos {
-    line-height: 0;
+    width: 100%;
+    line-height: 1.6rem;
 }
 
 /* Registration section */
@@ -248,7 +248,7 @@ nav {
 /* Media query: large or landscape phones (576px and up) Masonary view */
 @media screen and (min-width: 576px) {
 
-    .photos {
+    .photos-container {
         column-count: 3;
         column-gap: 0;
     }
