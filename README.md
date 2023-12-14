@@ -400,8 +400,8 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + In build and deployment select the **main** branch.
 + Select the **/(root)** folder.
 + Click on the **Save** button.
-+ Website is now live at https://kevinflanagan7.github.io/Golf-classic/index.html. 
-+ If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
++ Website is now live at  `https://USERNAME.github.io/Golf-classic/`. 
++ If changes are made, commited and pushed to GitHub, the website will be updated.
 
 \
 &nbsp;
