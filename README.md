@@ -204,11 +204,14 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 + The landing page image
     - The image gives the user instant knowledge of what is involved in the site, and with the high defintion of the foreground it draws their eye to the golf ball in the grass and the cover text box.
 
-    - The text gives instant information to the user on what the competetion is and when it is on.  
+    - The text gives instant information to the user on what the competetion is and when it is on.
 \
 &nbsp;
 
-    ![Landing Page](/documentation/Landing_page.png)
+![Landing Page](documentation/Landing_page.png)
+
+ 
+
 
 \
 &nbsp;
@@ -218,7 +221,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### About Section
 
-+ The about section gives a brief history of the Golf club along with details of the competition format and the prizes to be won. The golf club crest is also added and adds to the user viewing experienxe espectially on the larger screen sizes.
++ The about section gives a brief history of the Golf club along with details of the competition format. The golf club crest is also added and adds to the user viewing experienxe espectially on the larger screen sizes.
     \
     &nbsp;
 
@@ -235,6 +238,30 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     &nbsp;
 
 + For larger screen sizes I used flexbox to align the elements along the horizontal so there is no excess empty spaces which makes for a better user experience.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Prize Section
++ The prize section gives details of the prizes to be won. They are in a column for mobile screens and in a row for larger screen sizes.
+    \
+    &nbsp;
+
+    *Phone*
+
+    ![About Section on Phone](documentation/Prize_mobile.png)
+    \
+    &nbsp;
+
+
+    *Larger screen size*
+    
+    ![About Section on larger screen sizes](documentation/Prize_large.png)
+    \
+    &nbsp;
 
 \
 &nbsp;
@@ -285,7 +312,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
-+ On submission of the form, the user is brought to a page confirming that their details were received and that contact will be made when draw has been completed. There is also a link back to the home page.
++ On submission of the form, the user is brought to a page confirming that their details were received successfully and that the club will be in contact. The is a home icon link to return to home page. If not pressed within 10 seconds the user is redirected back to home page.
     \
     &nbsp;
 
@@ -299,7 +326,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Footer
 
-+ The footer contains the social media links related to the Golf club. These social links all open in a new tab for ease of use and the ability to easily come back to Golf classic site for the user.
++ The footer contains the social media links related to the Golf club. These links all open in a new tab for ease of use and the ability to easily come back to Golf classic site for the user.
     \
     &nbsp;
 
