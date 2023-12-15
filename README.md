@@ -390,14 +390,14 @@ I also used the scroll behavior command and set it to smooth for a better user e
 - Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness and features on different devices. Test results and screenshots below:
     - Responsiveness
 
-        | Device                | Responsive >=768px | Responsive <768px | 
-        | --------------------- | ------------------ | ----------------- | 
-        | Galaxy S9+            | N/A                | Good              | 
-        | Galaxy S5             | N/A                | Good              | 
-        | iPhone 6/7/8          | N/A                | Good              |  
-        | iPad Pro              | Good               | N/A               | 
-        | Desktop 1024px        | Good               | N/A               |
-        | Desktop > 1200px      | Good               | N/A               | 
+        | Device                | Responsive >=768px | Responsive <768px | Iamges work |
+        | --------------------- | ------------------ | ----------------- | ----------- | 
+        | Galaxy S9+            | N/A                | Good              | Good        |
+        | Galaxy S5             | N/A                | Good              | Good        |
+        | iPhone 6/7/8          | N/A                | Good              | Good        |
+        | iPad Pro              | Good               | N/A               | Good        |
+        | Desktop 1024px        | Good               | N/A               | Good        |
+        | Desktop > 1200px      | Good               | N/A               | Good        |
 
         *Galaxy S9+*
         | Home                                   | About                                         |
@@ -430,14 +430,15 @@ I also used the scroll behavior command and set it to smooth for a better user e
 
     - Features
 
-        | Device                | Links/URLs work    | Images Work       | Submit button   | Hamburger Menu | 
-        | --------------------- | ------------------ | ----------------- | --------------- | -------------- | 
-        | Galaxy S9+            | N/A                | Good              | Passed          | Passed         | 
-        | Galaxy S5             | N/A                | Good              | Passed          | Passed         | 
-        | iPhone 6/7/8          | N/A                | Good              | Passed          | Passed         |  
-        | iPad Pro              | Good               | N/A               | Passed          | Passed         | 
-        | Desktop 1024px        | Good               | N/A               | Passed          | Passed         | 
-        | Desktop > 1200px      | Good               | N/A               | Passed          | Passed         |
+        | Feature                  | Action                               | Effect                                                | 
+        | ------------------------ | ------------------------------------ |------------------------------------------------------ |  
+        | Header Nav Links/Logo    | Click on nav links and logo          | Linked correctly on page                              |
+        | URLs                     | Click on media icons & map           | New page opens to URL correctly                       |       
+        | Submit button            | Click on submit button               | Opens sign up page confirming sucessfull registration |  
+        | Hamburger Menu           | Click on icon for <756px             | Dropdown menu displayed                               |  
+        | Sign up page home icon   | Click on home icon                   | Brings user back to home page                         |  
+        | Sign up page redirection | When sign up page opens wait 10 secs | Redirected to home page if home icon not pressed      |
+        
 
     - Browser Compatibility tests.
 
@@ -446,6 +447,8 @@ I also used the scroll behavior command and set it to smooth for a better user e
         | Chrome                | Good                | Good                    | 
         | Edge                  | Good                | Good                    | 
         | Firefox               | Good                | Good                    |
+
+
 
     - User Stories
 
@@ -459,7 +462,9 @@ I also used the scroll behavior command and set it to smooth for a better user e
 
 ## Unfixed Bugs
 
-The Hamburger menu selector for smaller devices does not close when a menu item is selected. To enable this it would need JavaScript which I have not covered yet.
+The Hamburger menu selector for smaller devices does not close when a menu item is selected. The user has to click on hamburger icon again to collaspe menu list. To enable this it would need JavaScript which I have not covered yet.
+
+![Bug](documentation/Menu_bug.png)
 
 \
 &nbsp;
