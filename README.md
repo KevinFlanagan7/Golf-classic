@@ -379,7 +379,7 @@ The site responds nicely to all different screen sizes, the images look sharp on
 - I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Registration sections. I used the scroll-padding-top command to resolve the problem. 
 I also used the scroll behavior command and set it to smooth for a better user experience.
 - I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by approximatley 100 lines and improved the lighthouse performance results.
-- When I was validating index.html file, I had 2 warnings showing. It reported that two sections (Registration and location map) were missing headings. I added headings and a class to these sections and set up a css style rule to hide the headings.
+- When I was validating my html files, I had 3 warnings showing. It reported that sections were missing headings. I added headings, set a class to and set up a css style rule to hide the headings.
 - The results of my validation for html and css files are below.
     - HTML (index.html) validator [results](documentation/index.html.png "W3C HTML")
     - HTML (signup.html) validator [results](documentation/signup.html.png "W3C HTML")
@@ -387,25 +387,74 @@ I also used the scroll behavior command and set it to smooth for a better user e
 - Lighthouse tests for mobile [results](documentation/lighthouse_mobile.png)
 - Lighthouse tests for desktop [results](documentation/lighthouse_desktop.png)
 
-- Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness and features on different devices. Test results are listed below.
+- Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness and features on different devices. Test results and screenshots below:
+    - Responsiveness
 
-| Device                | Responsive >=768px | Responsive <768px | Links/URLs work | Images Work   | Submit button | Hamburger Menu |
-| --------------------- | ------------------ | ----------------- | --------------- | ------------- | ------------- | -------------- |
-| Galaxy S9+            | N/A                | Good              | Passed          | Passed        | Passed        | Passed         |
-| Galaxy S5             | N/A                | Good              | Passed          | Passed        | Passed        | Passed         |
-| iPhone 6/7/8          | N/A                | Good              | Passed          | Passed        | Passed        | Passed         |
-| iPad                  | Good               | N/A               | Passed          | Passed        | Passed        | N/A            |
-| iPad Pro              | Good               | N/A               | Passed          | Passed        | Passed        | N/A            |
-| Desktop 1024px        | Good               | N/A               | Passed          | Passed        | Passed        | N/A            |
-| Desktop > 1200px      | Good               | N/A               | Passed          | Passed        | Passed        | N/A            |
+        | Device                | Responsive >=768px | Responsive <768px | 
+        | --------------------- | ------------------ | ----------------- | 
+        | Galaxy S9+            | N/A                | Good              | 
+        | Galaxy S5             | N/A                | Good              | 
+        | iPhone 6/7/8          | N/A                | Good              |  
+        | iPad Pro              | Good               | N/A               | 
+        | Desktop 1024px        | Good               | N/A               |
+        | Desktop > 1200px      | Good               | N/A               | 
 
-- Browser Compatibility tests.
+        *Galaxy S9+*
+        | Home                                   | About                                         |
+        | -------------------------------------- | --------------------------------------------- |
+        | ![Home](documentation/gallaxy_S9+.png) | ![About](documentation/gallaxy_S9+_About.png) | 
 
-| Browser               | Intented Appearance | Intented Responsiveness | 
-| --------------------- | ------------------- | ----------------------- |
-| Chrome                | Good                | Good                    | 
-| Edge                  | Good                | Good                    | 
-| Firefox               | Good                | Good                    |
+        | Prizes                                          | Sign Up                                          |
+        | ----------------------------------------------- | ------------------------------------------------ |
+        | ![Prizes](documentation/gallaxy_S9+_Prizes.png) | ![Sign Up](documentation/gallaxy_S9+_Signup.png) |
+
+        *iPad Pro*
+        | Home                                   | About                                  |
+        | -------------------------------------- | -------------------------------------- |
+        | ![Home](documentation/iPad_home.png)   | ![About](documentation/iPad_about.png) | 
+
+        | Prizes                                   | Sign Up                                   |
+        | ---------------------------------------- | ----------------------------------------- |
+        | ![Prizes](documentation/iPad_prizes.png) | ![Sign Up](documentation/iPad_signup.png) |
+
+        *Desktop*
+        | Home                                    | About                                      |
+        | --------------------------------------- | ------------------------------------------ |
+        | ![Home](documentation/Desktop_home.png) | ![About](documentation/Desktop_about.png)  |
+
+        | Gallery                                       | Sign Up                                      |
+        | --------------------------------------------- | -------------------------------------------- |
+        | ![Gallery](documentation/Desktop_gallery.png) | ![Sign Up](documentation/Desktop_signup.png) |
+                                                                                                                       
+        
+
+    - Features
+
+        | Device                | Links/URLs work    | Images Work       | Submit button   | Hamburger Menu | 
+        | --------------------- | ------------------ | ----------------- | --------------- | -------------- | 
+        | Galaxy S9+            | N/A                | Good              | Passed          | Passed         | 
+        | Galaxy S5             | N/A                | Good              | Passed          | Passed         | 
+        | iPhone 6/7/8          | N/A                | Good              | Passed          | Passed         |  
+        | iPad Pro              | Good               | N/A               | Passed          | Passed         | 
+        | Desktop 1024px        | Good               | N/A               | Passed          | Passed         | 
+        | Desktop > 1200px      | Good               | N/A               | Passed          | Passed         |
+
+    - Browser Compatibility tests.
+
+        | Browser               | Intented Appearance | Intented Responsiveness | 
+        | --------------------- | ------------------- | ----------------------- |
+        | Chrome                | Good                | Good                    | 
+        | Edge                  | Good                | Good                    | 
+        | Firefox               | Good                | Good                    |
+
+    - User Stories
+
+        | User Story            | Testing             | 
+        | --------------------- | ------------------- |
+        | Chrome                | Good                |
+        | Edge                  | Good                | 
+        | Firefox               | Good                |                
+
 
 
 ## Unfixed Bugs
