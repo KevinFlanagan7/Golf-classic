@@ -163,6 +163,10 @@ nav {
     padding: 2rem 6rem;
 }
 
+#calendar {
+    margin-top: 2rem;
+}
+
 .reg-heading {
     margin-bottom: 2rem;
 }
@@ -175,10 +179,6 @@ nav {
     border: 1px solid var(--white);
     border-radius: 2px;
     padding: 0 1rem;
-}
-
-#calendar {
-    margin-top: 2rem;
 }
 
 .date-label {
@@ -255,11 +255,13 @@ nav {
 /* Media query: large or landscape phones (576px and up) Masonary view */
 @media screen and (min-width: 576px) {
 
+    /* Gallery section */
     .photos-container {
         column-count: 3;
         column-gap: 0;
     }
 
+    /* Registration section */
     #register {
         padding: 2rem 14rem;
     }
