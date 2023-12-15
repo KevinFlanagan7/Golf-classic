@@ -312,7 +312,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
-+ On submission of the form, the user is brought to a page confirming that their details were received successfully and that the club will be in contact. The is a home icon link to return to home page. If not pressed within 10 seconds the user is redirected back to home page.
++ On submission of the form, the user is brought to a page confirming that their details were received successfully and that the club will be in contact. I have use the same hero image to be consistant with home page. There is a home icon link to return to home page. If not pressed within 10 seconds the user is redirected back to the home page.
     \
     &nbsp;
 
@@ -326,7 +326,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Footer
 
-+ The footer contains the social media links related to the Golf club. These links all open in a new tab for ease of use and the ability to easily come back to Golf classic site for the user.
++ The footer contains the social media links related to the Golf club. These links all open in a new tab for ease of use and the ability to easily come back to the Golf classic site for the user.
     \
     &nbsp;
 
@@ -374,12 +374,12 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ## Testing
 
-The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little blank spaces. It allows the user to navigate around easily and aslo make contact via the sign up form or social media links. The content is simple and to the point.
+The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little blank spaces. It allows the user to navigate around easily and also make contact via the sign up form or social media links. The content is simple and to the point.
 
-- I had issues with the navigation menu bar when testing as it was scrolling too far past the About, Gallery and Registration sections. After some research on the internet I found the scroll-padding-top code which i used to resolve the problem. 
-- While researching for the above problem I also found the scroll behavior code and also used this and set it to smooth for a better user experience.
-- I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by nearly 100 lines and improved the lighthouse performance results.
-- When I was validating index.html file, I had 2 errors showing. It reported that two sections (Registration and location map) were missing headings. I added headings and a class to these sections and then set up a css style rule to hide the headings.
+- I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Registration sections. I used the scroll-padding-top command to resolve the problem. 
+I also used the scroll behavior command and set it to smooth for a better user experience.
+- I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by approximatley 100 lines and improved the lighthouse performance results.
+- When I was validating index.html file, I had 2 warnings showing. It reported that two sections (Registration and location map) were missing headings. I added headings and a class to these sections and set up a css style rule to hide the headings.
 - The results of my validation for html and css files are below.
     - HTML (index.html) validator [results](documentation/index.html.png "W3C HTML")
     - HTML (signup.html) validator [results](documentation/signup.html.png "W3C HTML")
