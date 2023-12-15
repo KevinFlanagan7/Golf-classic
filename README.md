@@ -56,8 +56,7 @@ Welcome to the Midlands Golf Classic website. This site's goal is to promote the
 * Map to location of club.
 
 ## User Stories
-* As a user, I want to be able to easily contact the club.
-* As a user, I want to be able to make contact with the club via several different methods, i.e. social media.
+* As a user, I want to be able to easily contact the club via different methods, ie social media
 * As a user, I want to be able to easily navigate through the website.
 * As a user, I want to know where the club is based.
 * As a user, I want to know what event is taking place and when.
@@ -399,9 +398,12 @@ I also used the scroll behavior command and set it to smooth for a better user e
         | Desktop 1024px        | Good               | N/A               | Good        |
         | Desktop > 1200px      | Good               | N/A               | Good        |
 
+        <details><summary>Screenshots</summary>
+
         *Galaxy S9+*
-        | Home                                   | About                                         |
-        | -------------------------------------- | --------------------------------------------- |
+
+        | Home | About |
+        | ---- | -----|
         | ![Home](documentation/gallaxy_S9+.png) | ![About](documentation/gallaxy_S9+_About.png) | 
 
         | Prizes                                          | Sign Up                                          |
@@ -442,23 +444,30 @@ I also used the scroll behavior command and set it to smooth for a better user e
 
     - Browser Compatibility tests.
 
-        | Browser               | Intented Appearance | Intented Responsiveness | 
-        | --------------------- | ------------------- | ----------------------- |
-        | Chrome                | Good                | Good                    | 
-        | Edge                  | Good                | Good                    | 
-        | Firefox               | Good                | Good                    |
+        | Browser | Intented Appearance | Intented Responsiveness | 
+        | --------| ------------------- | ----------------------- |
+        | Chrome  | Good | Good | 
+        | Edge    | Good | Good | 
+        | Firefox | Good | Good |
 
+        <details><summary>Screenshots</summary>
 
+        
 
     - User Stories
+    
+        | User Story | Testing | 
+        | -----------| --------|
+        | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
+        | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
+        | As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
+        | As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
 
-        | User Story            | Testing             | 
-        | --------------------- | ------------------- |
-        | Chrome                | Good                |
-        | Edge                  | Good                | 
-        | Firefox               | Good                |                
-
-
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;       
 
 ## Unfixed Bugs
 
