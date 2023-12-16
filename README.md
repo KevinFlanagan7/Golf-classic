@@ -49,6 +49,8 @@ Welcome to the Midlands Golf Classic website. This site's goal is to promote the
     - [Bugs](#bugs)
     - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
+- [Fork](#fork)
+- [Clone](#clone)
 - [Credits](#credits)
 
 ## UX
@@ -159,7 +161,7 @@ The wireframes are below:
 
 The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the Golf classic header doubles as a link back to the home screen.
 
-+ Large Desktop screens (>=1200px)
+- Large Desktop screens (>=1200px)
 \
 &nbsp;
 
@@ -174,7 +176,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 &nbsp;
     
     
-+ iPad devices (<992px)
+- iPad devices (<992px)
 \
 &nbsp;
         
@@ -207,7 +209,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
   
 ### Landing Page
 
-+ The landing page image
+- The landing page image
     - The image gives the user instant knowledge of what is involved in the site, and with the high defintion of the foreground it draws their eye to the golf ball in the grass and the cover text box.
 
     - The text gives instant information to the user on what the competetion is and when it is on.
@@ -224,7 +226,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### About Section
 
-+ The about section gives a brief history of the Golf club along with details of the competition format. The golf club crest is also added and adds to the user viewing experienxe espectially on the larger screen sizes.
+- The about section gives a brief history of the Golf club along with details of the competition format. The golf club crest is also added and adds to the user viewing experienxe espectially on the larger screen sizes.
     \
     &nbsp;
 
@@ -240,7 +242,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
-+ For larger screen sizes I used flexbox to align the elements along the horizontal so there is no excess empty spaces which makes for a better user experience.
+- For larger screen sizes I used flexbox to align the elements along the horizontal so there is no excess empty spaces which makes for a better user experience.
 
 \
 &nbsp;
@@ -249,7 +251,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 &nbsp;
 
 ### Prize Section
-+ The prize section gives details of the prizes to be won. They are in a column for mobile screens and in a row for larger screen sizes.
+- The prize section gives details of the prizes to be won. They are in a column for mobile screens and in a row for larger screen sizes.
     \
     &nbsp;
 
@@ -274,7 +276,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Gallery Section
 
-+ The Gallery section displays photos of the golf course in a column for small screens and in a row of three for larger screen sizes.
+- The Gallery section displays photos of the golf course in a column for small screens and in a row of three for larger screen sizes.
     \
     &nbsp;
 
@@ -299,7 +301,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Sign Up Section
 
-+ The sign up section allows the user to quickly submit the registration for the competition draw and a calender date selecter to select which day to play. It also has a map of the location of the club base. On larger screen sizes the map is centered and has a box shadow to provide a better user experience.
+- The sign up section allows the user to quickly submit the registration for the competition draw and a calender date selecter to select which day to play. It also has a map of the location of the club base. On larger screen sizes the map is centered and has a box shadow to provide a better user experience.
     \
     &nbsp;
 
@@ -307,7 +309,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
-+ The text fields are all required fields and will not alow the user to submit until they are completed, this includes a validation on the email to ensure it is in a valid format.
+- The text fields are all required fields and will not alow the user to submit until they are completed, this includes a validation on the email to ensure it is in a valid format.
     \
     &nbsp;
 
@@ -315,7 +317,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
-+ On submission of the form, the user is brought to a page confirming that their details were received successfully and that the club will be in contact. I have use the same hero image to be consistant with home page. There is a home icon link to return to home page. If not pressed within 10 seconds the user is redirected back to the home page.
+- On submission of the form, the user is brought to a page confirming that their details were received successfully and that the club will be in contact. I have use the same hero image to be consistant with home page. There is a home icon link to return to home page. If not pressed within 10 seconds the user is redirected back to the home page.
     \
     &nbsp;
 
@@ -329,7 +331,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Footer
 
-+ The footer contains the social media links related to the Golf club. These links all open in a new tab for ease of use and the ability to easily come back to the Golf classic site for the user.
+- The footer contains the social media links related to the Golf club. These links all open in a new tab for ease of use and the ability to easily come back to the Golf classic site for the user.
     \
     &nbsp;
 
@@ -340,9 +342,9 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ## Features to be Implemented
 
-+ Registration form to be sent to the Golf club instead of leading to the dummy page.
-+ Links to competetion sponsors websites.
-+ Links to accomodation and things to do in the Midlands.
+- Registration form to be sent to the Golf club instead of leading to the dummy page.
+- Links to competetion sponsors websites.
+- Links to accomodation and things to do in the Midlands.
 
 \
 &nbsp;
@@ -381,9 +383,9 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 - When I was validating my html files, I had 3 warnings showing. It reported that sections were missing headings. I added headings, set a class to and set up a css style rule to hide the headings.
 - The results of my validation for html and css files are below.
-    - HTML (index.html) validator [results](documentation/index.html.png "W3C HTML")
-    - HTML (signup.html) validator [results](documentation/signup.html.png "W3C HTML")
-    - CSS validator [results](documentation/style.css.png "W3C CSS")
+- HTML (index.html) validator [results](documentation/index.html.png "W3C HTML")
+- HTML (signup.html) validator [results](documentation/signup.html.png "W3C HTML")
+- CSS validator [results](documentation/style.css.png "W3C CSS")
 
 ### Lighthouse
 
@@ -442,46 +444,66 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     | --------------------------------------------- | -------------------------------------------- |
     | ![Gallery](documentation/Desktop_gallery.png) | ![Sign Up](documentation/Desktop_signup.png) |
                                                                                         
+
+
 ### Features
 
-| Feature                  | Action                               | Effect                                                | 
-| ------------------------ | ------------------------------------ |------------------------------------------------------ |  
-| Header Nav Links/Logo    | Click on nav links and logo          | Linked correctly on page                              |
-| URLs                     | Click on media icons & map           | New page opens to URL correctly                       |       
-| Submit button            | Click on submit button               | Opens sign up page confirming sucessfull registration |  
-| Hamburger Menu           | Click on icon for <756px             | Dropdown menu displayed                               |  
-| Sign up page home icon   | Click on home icon                   | Brings user back to home page                         |  
-| Sign up page redirection | When sign up page opens wait 10 secs | Redirected to home page if home icon not pressed |
+- text
 
-        \
+    | Feature                  | Action                               | Effect                                                | 
+    | ------------------------ | ------------------------------------ |------------------------------------------------------ |  
+    | Header Nav Links/Logo    | Click on nav links and logo          | Linked correctly on page                              |
+    | URLs                     | Click on media icons & map           | New page opens to URL correctly                       |       
+    | Submit button            | Click on submit button               | Opens sign up page confirming sucessfull registration |  
+    | Hamburger Menu           | Click on icon for <756px             | Dropdown menu displayed                               |  
+    | Sign up page home icon   | Click on home icon                   | Brings user back to home page                         |  
+    | Sign up page redirection | When sign up page opens wait 10 secs | Redirected to home page if home icon not pressed      |
+
+
+
+\
 &nbsp;
 [Back to Top](#table-of-contents)
 \
 &nbsp;
         
-### Browser compatibility
-    
-| Browser | Intented Appearance | Intented Responsiveness | 
-| --------| ------------------- | ----------------------- |
-| Chrome  | Good | Good | 
-| Edge    | Good | Good | 
-| Firefox | Good | Good |
 
-    
-    
-    <details><summary>Screenshots</summary>   
+### Browser compatibility
+
+- Text
+
+    | Browser | Intented Appearance | Intented Responsiveness | 
+    | --------| ------------------- | ----------------------- |
+    | Chrome  | Good | Good | 
+    | Edge    | Good | Good | 
+    | Firefox | Good | Good |
+
+    <details><summary>Screenshots</summary>
+
+    *Chrome*
+
+    ![Chrome](documentation/Chrome_desktop.png) 
+
+    *Edge*
+
+    ![Edge](documentation/edge_desktop.png)
+
+    *Firefox*
+
+    ![Firefox](documentation/Firefox_desktop.png)
         
 
 
-
 ### User Stories
-    
-| User Story | Testing | 
-| -----------| --------|
-| As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
-| As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
-| As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
-| As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
+
+- text
+
+    | User Story | Testing | 
+    | -----------| --------|
+    | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
+    | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
+    | As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
+    | As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
 
 \
 &nbsp;
@@ -491,15 +513,27 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Bugs
 
-- I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Registration sections. I used the scroll-padding-top command to resolve the problem. 
-I also used the scroll behavior command and set it to smooth for a better user experience.
+- I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Registration sections. I used the scroll-padding-top command to resolve the problem. I also used the scroll behavior command and set it to smooth for a better user experience.
 - I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by approximatley 100 lines and improved the lighthouse performance results.
+
+    <details><summary>Screenshots</summary>
+
+    *With no scroll-padding*
+
+    ![Bug](documentation/Scroll_bug.png)
+
+    *With scroll-padding*
+
+    ![Bug-fix](documentation/Scroll_padding.png)
+
 
 ### Unfixed Bugs
 
-The Hamburger menu selector for smaller devices does not close when a menu item is selected. The user has to click on hamburger icon again to collaspe menu list. To enable this it would need JavaScript which I have not covered yet.
+- The Hamburger menu selector for smaller devices does not close when a menu item is selected. The user has to click on hamburger icon again to collaspe menu list. To enable this it would need JavaScript which I have not covered yet.
 
-![Bug](documentation/Menu_bug.png)
+    <details><summary>Screenshot</summary>
+
+    ![Bug](documentation/Menu_bug.png)
 
 \
 &nbsp;
@@ -511,13 +545,17 @@ The Hamburger menu selector for smaller devices does not close when a menu item 
 
 Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
-+ Navigate to the repository on github and click **Settings**.
-+ Then select **Pages** on the side navigation.
-+ In build and deployment select the **main** branch.
-+ Select the **/(root)** folder.
-+ Click on the **Save** button.
-+ Website is now live at  `https://USERNAME.github.io/Golf-classic/`. 
-+ If changes are made, commited and pushed to GitHub, the website will be updated.
+- Navigate to the repository on github and click **Settings**.
+- Then select **Pages** on the side navigation.
+- In build and deployment select the **main** branch.
+- Select the **/(root)** folder.
+- Click on the **Save** button.
+- Website is now live at  `https://USERNAME.github.io/Golf-classic/`. 
+- If changes are made, commited and pushed to GitHub, the website will be updated.
+
+## Fork
+
+## Clone
 
 \
 &nbsp;
@@ -525,7 +563,7 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 \
 &nbsp;
 
-# Credits
+## Credits
 
 For help and advice:
 
