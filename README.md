@@ -40,6 +40,13 @@ Welcome to the Midlands Golf Classic website. This site's goal is to promote the
     - [Languages](#languages)
     - [Tools](#tools)
 - [Testing](#testing)
+    - [Code Validation](#code-validation)
+    - [Lighthouse](#lighthouse)
+    - [Responsiveness](#responsiveness)
+    - [Features](#features)
+    - [Browser compatibility](#browser-compatibility)
+    - [User Stories](#user-stories)
+    - [Bugs](#bugs)
     - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -125,7 +132,7 @@ I will be building my website with a mobile first mindset using the Samsung Gala
 \
 &nbsp;
 
-# Wireframes
+## Wireframes
 
 I have used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframes for my website. 
 
@@ -208,9 +215,6 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 &nbsp;
 
 ![Landing Page](documentation/Landing_page.png)
-
- 
-
 
 \
 &nbsp;
@@ -346,17 +350,17 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 \
 &nbsp;
 
-# Technologies used
+## Technologies used
 
-## Languages
+### Languages
 
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
-## Libraries & Framework
+### Libraries & Framework
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-## Tools
+### Tools
 * [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
@@ -373,21 +377,30 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ## Testing
 
-The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little blank spaces. It allows the user to navigate around easily and also make contact via the sign up form or social media links. The content is simple and to the point.
+### Code Validation
 
-- I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Registration sections. I used the scroll-padding-top command to resolve the problem. 
-I also used the scroll behavior command and set it to smooth for a better user experience.
-- I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by approximatley 100 lines and improved the lighthouse performance results.
 - When I was validating my html files, I had 3 warnings showing. It reported that sections were missing headings. I added headings, set a class to and set up a css style rule to hide the headings.
 - The results of my validation for html and css files are below.
     - HTML (index.html) validator [results](documentation/index.html.png "W3C HTML")
     - HTML (signup.html) validator [results](documentation/signup.html.png "W3C HTML")
     - CSS validator [results](documentation/style.css.png "W3C CSS")
+
+### Lighthouse
+
 - Lighthouse tests for mobile [results](documentation/lighthouse_mobile.png)
 - Lighthouse tests for desktop [results](documentation/lighthouse_desktop.png)
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Responsiveness
+
+- The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little blank spaces. It allows the user to navigate around easily and also make contact via the sign up form or social media links. The content is simple and to the point.
+
 - Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness and features on different devices. Test results and screenshots below:
-    - Responsiveness
 
         | Device                | Responsive >=768px | Responsive <768px | Iamges work |
         | --------------------- | ------------------ | ----------------- | ----------- | 
@@ -427,10 +440,8 @@ I also used the scroll behavior command and set it to smooth for a better user e
         | Gallery                                       | Sign Up                                      |
         | --------------------------------------------- | -------------------------------------------- |
         | ![Gallery](documentation/Desktop_gallery.png) | ![Sign Up](documentation/Desktop_signup.png) |
-                                                                                                                       
-        
-
-    - Features
+                                                                                        
+### Features
 
         | Feature                  | Action                               | Effect                                                | 
         | ------------------------ | ------------------------------------ |------------------------------------------------------ |  
@@ -440,21 +451,24 @@ I also used the scroll behavior command and set it to smooth for a better user e
         | Hamburger Menu           | Click on icon for <756px             | Dropdown menu displayed                               |  
         | Sign up page home icon   | Click on home icon                   | Brings user back to home page                         |  
         | Sign up page redirection | When sign up page opens wait 10 secs | Redirected to home page if home icon not pressed      |
+
+        \
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
         
-
-    - Browser Compatibility tests.
-
+### Browser compatibility
+    
         | Browser | Intented Appearance | Intented Responsiveness | 
         | --------| ------------------- | ----------------------- |
         | Chrome  | Good | Good | 
         | Edge    | Good | Good | 
         | Firefox | Good | Good |
 
-        <details><summary>Screenshots</summary>
+        <details><summary>Screenshots</summary>       
 
-        
-
-    - User Stories
+### User Stories
     
         | User Story | Testing | 
         | -----------| --------|
@@ -467,7 +481,13 @@ I also used the scroll behavior command and set it to smooth for a better user e
 &nbsp;
 [Back to Top](#table-of-contents)
 \
-&nbsp;       
+&nbsp;  
+
+### Bugs
+
+- I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Registration sections. I used the scroll-padding-top command to resolve the problem. 
+I also used the scroll behavior command and set it to smooth for a better user experience.
+- I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by approximatley 100 lines and improved the lighthouse performance results.
 
 ## Unfixed Bugs
 
@@ -481,7 +501,7 @@ The Hamburger menu selector for smaller devices does not close when a menu item 
 \
 &nbsp;
 
-# Deployment
+## Deployment
 
 Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
@@ -498,7 +518,6 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 [Back to Top](#table-of-contents)
 \
 &nbsp;
-
 
 # Credits
 
