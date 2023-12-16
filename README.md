@@ -402,55 +402,56 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 - Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness and features on different devices. Test results and screenshots below:
 
-        | Device                | Responsive >=768px | Responsive <768px | Iamges work |
-        | --------------------- | ------------------ | ----------------- | ----------- | 
-        | Galaxy S9+            | N/A                | Good              | Good        |
-        | Galaxy S5             | N/A                | Good              | Good        |
-        | iPhone 6/7/8          | N/A                | Good              | Good        |
-        | iPad Pro              | Good               | N/A               | Good        |
-        | Desktop 1024px        | Good               | N/A               | Good        |
-        | Desktop > 1200px      | Good               | N/A               | Good        |
+    | Device                | Responsive >=768px | Responsive <768px | Iamges work |
+    | --------------------- | ------------------ | ----------------- | ----------- | 
+    | Galaxy S9+            | N/A                | Good              | Good        |
+    | Galaxy S5             | N/A                | Good              | Good        |
+    | iPhone 6/7/8          | N/A                | Good              | Good        |
+    | iPad Pro              | Good               | N/A               | Good        |
+    | Desktop 1024px        | Good               | N/A               | Good        |
+    | Desktop > 1200px      | Good               | N/A               | Good        |
 
-        <details><summary>Screenshots</summary>
 
-        *Galaxy S9+*
+    <details><summary>Screenshots</summary>
 
-        | Home | About |
-        | ---- | -----|
-        | ![Home](documentation/gallaxy_S9+.png) | ![About](documentation/gallaxy_S9+_About.png) | 
+    *Galaxy S9+*
 
-        | Prizes                                          | Sign Up                                          |
-        | ----------------------------------------------- | ------------------------------------------------ |
-        | ![Prizes](documentation/gallaxy_S9+_Prizes.png) | ![Sign Up](documentation/gallaxy_S9+_Signup.png) |
+    | Home | About |
+    | ---- | -----|
+    | ![Home](documentation/gallaxy_S9+.png) | ![About](documentation/gallaxy_S9+_About.png) | 
 
-        *iPad Pro*
-        | Home                                   | About                                  |
-        | -------------------------------------- | -------------------------------------- |
-        | ![Home](documentation/iPad_home.png)   | ![About](documentation/iPad_about.png) | 
+    | Prizes                                          | Sign Up                                          |
+    | ----------------------------------------------- | ------------------------------------------------ |
+    | ![Prizes](documentation/gallaxy_S9+_Prizes.png) | ![Sign Up](documentation/gallaxy_S9+_Signup.png) |
 
-        | Prizes                                   | Sign Up                                   |
-        | ---------------------------------------- | ----------------------------------------- |
-        | ![Prizes](documentation/iPad_prizes.png) | ![Sign Up](documentation/iPad_signup.png) |
+    *iPad Pro*
+    | Home                                   | About                                  |
+    | -------------------------------------- | -------------------------------------- |
+    | ![Home](documentation/iPad_home.png)   | ![About](documentation/iPad_about.png) | 
 
-        *Desktop*
-        | Home                                    | About                                      |
-        | --------------------------------------- | ------------------------------------------ |
-        | ![Home](documentation/Desktop_home.png) | ![About](documentation/Desktop_about.png)  |
+    | Prizes                                   | Sign Up                                   |
+    | ---------------------------------------- | ----------------------------------------- |
+    | ![Prizes](documentation/iPad_prizes.png) | ![Sign Up](documentation/iPad_signup.png) |
 
-        | Gallery                                       | Sign Up                                      |
-        | --------------------------------------------- | -------------------------------------------- |
-        | ![Gallery](documentation/Desktop_gallery.png) | ![Sign Up](documentation/Desktop_signup.png) |
+    *Desktop*
+    | Home                                    | About                                      |
+    | --------------------------------------- | ------------------------------------------ |
+    | ![Home](documentation/Desktop_home.png) | ![About](documentation/Desktop_about.png)  |
+
+    | Gallery                                       | Sign Up                                      |
+    | --------------------------------------------- | -------------------------------------------- |
+    | ![Gallery](documentation/Desktop_gallery.png) | ![Sign Up](documentation/Desktop_signup.png) |
                                                                                         
 ### Features
 
-        | Feature                  | Action                               | Effect                                                | 
-        | ------------------------ | ------------------------------------ |------------------------------------------------------ |  
-        | Header Nav Links/Logo    | Click on nav links and logo          | Linked correctly on page                              |
-        | URLs                     | Click on media icons & map           | New page opens to URL correctly                       |       
-        | Submit button            | Click on submit button               | Opens sign up page confirming sucessfull registration |  
-        | Hamburger Menu           | Click on icon for <756px             | Dropdown menu displayed                               |  
-        | Sign up page home icon   | Click on home icon                   | Brings user back to home page                         |  
-        | Sign up page redirection | When sign up page opens wait 10 secs | Redirected to home page if home icon not pressed      |
+| Feature                  | Action                               | Effect                                                | 
+| ------------------------ | ------------------------------------ |------------------------------------------------------ |  
+| Header Nav Links/Logo    | Click on nav links and logo          | Linked correctly on page                              |
+| URLs                     | Click on media icons & map           | New page opens to URL correctly                       |       
+| Submit button            | Click on submit button               | Opens sign up page confirming sucessfull registration |  
+| Hamburger Menu           | Click on icon for <756px             | Dropdown menu displayed                               |  
+| Sign up page home icon   | Click on home icon                   | Brings user back to home page                         |  
+| Sign up page redirection | When sign up page opens wait 10 secs | Redirected to home page if home icon not pressed |
 
         \
 &nbsp;
@@ -460,22 +461,27 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
         
 ### Browser compatibility
     
-        | Browser | Intented Appearance | Intented Responsiveness | 
-        | --------| ------------------- | ----------------------- |
-        | Chrome  | Good | Good | 
-        | Edge    | Good | Good | 
-        | Firefox | Good | Good |
+| Browser | Intented Appearance | Intented Responsiveness | 
+| --------| ------------------- | ----------------------- |
+| Chrome  | Good | Good | 
+| Edge    | Good | Good | 
+| Firefox | Good | Good |
 
-        <details><summary>Screenshots</summary>       
+    
+    
+    <details><summary>Screenshots</summary>   
+        
+
+
 
 ### User Stories
     
-        | User Story | Testing | 
-        | -----------| --------|
-        | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
-        | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
-        | As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
-        | As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
+| User Story | Testing | 
+| -----------| --------|
+| As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
+| As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
+| As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
+| As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
 
 \
 &nbsp;
@@ -489,7 +495,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 I also used the scroll behavior command and set it to smooth for a better user experience.
 - I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by approximatley 100 lines and improved the lighthouse performance results.
 
-## Unfixed Bugs
+### Unfixed Bugs
 
 The Hamburger menu selector for smaller devices does not close when a menu item is selected. The user has to click on hamburger icon again to collaspe menu list. To enable this it would need JavaScript which I have not covered yet.
 
