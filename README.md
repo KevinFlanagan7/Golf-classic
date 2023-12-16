@@ -470,9 +470,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Browser compatibility
 
-- Text
-
-    | Browser | Intented Appearance | Intented Responsiveness | 
+-   | Browser | Intented Appearance | Intented Responsiveness | 
     | --------| ------------------- | ----------------------- |
     | Chrome  | Good | Good | 
     | Edge    | Good | Good | 
@@ -496,14 +494,14 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### User Stories
 
-- text
+ 
 
-    | User Story | Testing | 
-    | -----------| --------|
-    | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
-    | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
-    | As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
-    | As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
+-    | User Story | Testing | 
+        | -----------| --------|
+        | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
+        | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
+        | As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
+        | As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
 
 \
 &nbsp;
