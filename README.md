@@ -418,37 +418,41 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
     *Galaxy S9+*
 
-    | Home | About |
-    | ---- | -----|
-    | ![Home](documentation/gallaxy_S9+.png) | ![About](documentation/gallaxy_S9+_About.png) | 
+    | Home | About | Prizes |
+    | ---- | ----- | ------ |
+    | ![Home](documentation/gallaxy_S9+.png) | ![About](documentation/gallaxy_S9+_About.png) | ![Prizes](documentation/gallaxy_S9+_Prizes.png) |
 
-    | Prizes                                          | Sign Up                                          |
-    | ----------------------------------------------- | ------------------------------------------------ |
-    | ![Prizes](documentation/gallaxy_S9+_Prizes.png) | ![Sign Up](documentation/gallaxy_S9+_Signup.png) |
+    | Gallery | Sign Up |
+    | ------- | ------- |
+    | ![Gallery](documentation/gallaxy_S9+_gallery.png) | ![Sign Up](documentation/gallaxy_S9+_Signup.png) |
 
     *iPad Pro*
-    | Home                                   | About                                  |
-    | -------------------------------------- | -------------------------------------- |
-    | ![Home](documentation/iPad_home.png)   | ![About](documentation/iPad_about.png) | 
+    | Home | About | Prizes |
+    | ---- | ----- | ------- |
+    | ![Home](documentation/iPad_home.png) | ![About](documentation/iPad_about.png) | ![Prizes](documentation/iPad_prizes.png) | 
 
-    | Prizes                                   | Sign Up                                   |
-    | ---------------------------------------- | ----------------------------------------- |
-    | ![Prizes](documentation/iPad_prizes.png) | ![Sign Up](documentation/iPad_signup.png) |
+    | Gallery | Sign Up |
+    | ------ | ------- |
+    | ![Gallery](documentation/iPad_gallery.png) | ![Sign Up](documentation/iPad_signup.png) |
 
     *Desktop*
-    | Home                                    | About                                      |
-    | --------------------------------------- | ------------------------------------------ |
-    | ![Home](documentation/Desktop_home.png) | ![About](documentation/Desktop_about.png)  |
+    | Home | About | Prizes |
+    | ---- | ----- | ------ |
+    | ![Home](documentation/Desktop_home.png) | ![About](documentation/Desktop_about.png) | ![Prizes](documentation/Desktop_prizes.png) |
 
-    | Gallery                                       | Sign Up                                      |
-    | --------------------------------------------- | -------------------------------------------- |
+    | Gallery | Sign Up |
+    | ------- | ------- |
     | ![Gallery](documentation/Desktop_gallery.png) | ![Sign Up](documentation/Desktop_signup.png) |
-                                                                                        
 
-
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+                                        
 ### Features
 
-- text
+- Table containing the list of features and results after manual tests: 
 
     | Feature                  | Action                               | Effect                                                | 
     | ------------------------ | ------------------------------------ |------------------------------------------------------ |  
@@ -457,9 +461,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     | Submit button            | Click on submit button               | Opens sign up page confirming sucessfull registration |  
     | Hamburger Menu           | Click on icon for <756px             | Dropdown menu displayed                               |  
     | Sign up page home icon   | Click on home icon                   | Brings user back to home page                         |  
-    | Sign up page redirection | When sign up page opens wait 10 secs | Redirected to home page if home icon not pressed      |
-
-
+    | Sign up page redirection | When sign up page opens wait 10 secs | Redirected to home page if home icon not pressed |
 
 \
 &nbsp;
@@ -467,10 +469,11 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 \
 &nbsp;
         
-
 ### Browser compatibility
 
--   | Browser | Intented Appearance | Intented Responsiveness | 
+- Table of Browsers tested and screenshots of results in dropdown menu below:
+
+  | Browser | Intented Appearance | Intented Responsiveness | 
     | --------| ------------------- | ----------------------- |
     | Chrome  | Good | Good | 
     | Edge    | Good | Good | 
@@ -490,18 +493,16 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
     ![Firefox](documentation/Firefox_desktop.png)
         
-
-
 ### User Stories
 
- 
+- Table of User stories and testing:
 
--    | User Story | Testing | 
-        | -----------| --------|
-        | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
-        | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
-        | As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
-        | As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
+    | User Story | Testing | 
+    | -----------| --------|
+    | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
+    | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
+    | As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
+    | As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
 
 \
 &nbsp;
@@ -511,8 +512,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Bugs
 
-- I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Registration sections. I used the scroll-padding-top command to resolve the problem. I also used the scroll behavior command and set it to smooth for a better user experience.
-- I found that I was repeating a lot of code in my style.css file. I created more classes in my index.html file which reduced my style.css code by approximatley 100 lines and improved the lighthouse performance results.
+- I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Sign up sections. I used the scroll-padding-top command to resolve the problem. I also used the scroll behavior command and set it to smooth for a better user experience. Screenshots in dropdown menu below.
 
     <details><summary>Screenshots</summary>
 
