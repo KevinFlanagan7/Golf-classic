@@ -49,8 +49,8 @@ Welcome to the Midlands Golf Classic website. This site's goal is to promote the
     - [Bugs](#bugs)
     - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
-- [Fork](#fork)
-- [Clone](#clone)
+    - [Fork](#fork)
+    - [Clone](#clone)
 - [Credits](#credits)
 
 ## UX
@@ -136,7 +136,7 @@ I will be building my website with a mobile first mindset using the Samsung Gala
 
 ## Wireframes
 
-I have used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframes for my website. 
+I originally planned website to have three pages but again with a mobile first mindset I changed to one page having five sections. The sections included are Home, About, Prizes, Gallery and Sign Up. This allows the user to scroll through the sections on one page easily. I used [Balsamic](https://balsamiq.com/wireframes/) to develop my wireframes for my website. 
 
 The wireframes are below:
 
@@ -159,7 +159,7 @@ The wireframes are below:
 
 ### Navigation Bar
 
-The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the Golf classic header doubles as a link back to the home screen.
+The header navigation bar is fixed and fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the Golf classic header doubles as a link back to the home screen.
 
 - Large Desktop screens (>=1200px)
 \
@@ -216,7 +216,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 \
 &nbsp;
 
-![Landing Page](documentation/Landing_page.png)
+    ![Landing Page](documentation/Landing_page.png)
 
 \
 &nbsp;
@@ -339,7 +339,6 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
     \
     &nbsp;
 
-
 ## Features to be Implemented
 
 - Registration form to be sent to the Golf club instead of leading to the dummy page.
@@ -381,8 +380,9 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Code Validation
 
-- When I was validating my html files, I had 3 warnings showing. It reported that sections were missing headings. I added headings, set a class to and set up a css style rule to hide the headings.
-- The results of my validation for html and css files are below.
+When I was validating my html files, I had 3 warnings showing. It reported that sections were missing headings. I added headings, set a class to and set up a css style rule to hide the headings.
+The results of my validation for html and css files are below.
+
 - HTML (index.html) validator [results](documentation/index.html.png "W3C HTML")
 - HTML (signup.html) validator [results](documentation/signup.html.png "W3C HTML")
 - CSS validator [results](documentation/style.css.png "W3C CSS")
@@ -402,7 +402,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 - The site responds nicely to all different screen sizes, the images look sharp on all device sizes with very little blank spaces. It allows the user to navigate around easily and also make contact via the sign up form or social media links. The content is simple and to the point.
 
-- Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness and features on different devices. Test results and screenshots below:
+- Using Chrome Mobile [Simulator](https://developer.chrome.com/docs/devtools/device-mode "Simulator") extension I have tested the website's responsiveness on different devices. Test results and screenshots below:
 
     | Device                | Responsive >=768px | Responsive <768px | Iamges work |
     | --------------------- | ------------------ | ----------------- | ----------- | 
@@ -452,7 +452,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
                                         
 ### Features
 
-- Table containing the list of features and results after manual tests: 
+- Table containing the list of features and results after manual tests:
 
     | Feature                  | Action                               | Effect                                                | 
     | ------------------------ | ------------------------------------ |------------------------------------------------------ |  
@@ -499,10 +499,10 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
     | User Story | Testing | 
     | -----------| --------|
-    | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and clivk on social media icons to be directed to club pages. |
-    | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section |
+    | As a user, I want to be able to easily contact the club. | Navigate to sign up section and fill out required fields and click submit, navigate to footer section and click on social media icons to be directed to club on a new page. |
+    | As a user, I want to be able to easily navigate through the website. | Use header navigation links to click on desired section, Home, About, Prizes, Gallery or Sign up section. |
     | As a user, I want to know where the club is based. | Click on Sign up navigation link in header, click on map below sign up form for small screens <756px or beside sign up form for larger screens >756px. The map with directions to the club will open on a new page. |      
-    | As a user, I want to know what event is taking place and when | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
+    | As a user, I want to know what event is taking place and when. | Details of the competition and the date it is on is on the Landing page. Also click on About navigation link to find more details about the club and format of competition. |  
 
 \
 &nbsp;
@@ -512,7 +512,7 @@ The navigation bar is fully responsive to allow for various screen sizes. It inc
 
 ### Bugs
 
-- I had a probelm with the navigation menu bar when testing as it was scrolling too far past the About, Prize, Gallery and Sign up sections. I used the scroll-padding-top command to resolve the problem. I also used the scroll behavior command and set it to smooth for a better user experience. Screenshots in dropdown menu below.
+- I had a probelm with the navigation menu list when testing as it was scrolling too far past the page sections (About, Prize, Gallery and Sign up). I used the scroll-padding-top command to resolve the problem. I also used the scroll behavior command and set it to smooth for a better user experience. Screenshots in dropdown menu below.
 
     <details><summary>Screenshots</summary>
 
@@ -551,9 +551,24 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 - Website is now live at  `https://USERNAME.github.io/Golf-classic/`. 
 - If changes are made, commited and pushed to GitHub, the website will be updated.
 
-## Fork
+### Fork
 
-## Clone
+To make a copy of a repository or to fork it using Github follow below steps:
+
+- Go to **Github repository** to be copied.
+- Click on the **Fork** button in upper right corner of page to copy.
+
+### Clone
+
+To copy the repository to your local machine in Github follow steps below:
+
+- Go to **Github repository** to be cloned.
+- Click on the **Code** button above the list of files.
+- Select to clone using either  **HTTPS**, **SSH**, or **Github CLI** and click the **copy** button to copy the URL to clipboard.
+- Open **Git Bash**.
+- Change the current working directory to the one where you want the cloned directory.
+- Type **git clone** and paste the URL from the clipboard. 
+- Press **Enter** to create your local clone.
 
 \
 &nbsp;
@@ -575,8 +590,15 @@ For scroll padding:
 
 - [Youtube](https://www.youtube.com/watch?v=iGUSTyG-CYw "Youtube")
 
-For Landing page image
+For Landing page image:
+
 - [Pinterest](https://www.pinterest.ie/pin/758926974676546644 "Pinterest")
+
+For Prize section images:
+
+- [Golfe Santo da Serra](https://www.santodaserragolf.com/ "Golfe Santo da Serra")
+- [Ashford Castle](https://ashfordcastle.com/ "Ashford castle)
+- [K-Club](https://www.kclub.ie/ "K-Club)
 
 For Gallery Images and Crest:
 
