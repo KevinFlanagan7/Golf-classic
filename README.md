@@ -32,6 +32,7 @@ Welcome to the Midlands Golf Classic website. This site's goal is to promote the
         - [Navigation Bar](#navigation-bar)
         - [Landing Page](#landing-page)
         - [About Section](#about-section)
+        - [Prize Section](#prize-section)
         - [Gallery Section](#gallery-section)
         - [Sign Up Section](#sign-up-section)
         - [Footer](#footer)
@@ -43,9 +44,9 @@ Welcome to the Midlands Golf Classic website. This site's goal is to promote the
     - [Code Validation](#code-validation)
     - [Lighthouse](#lighthouse)
     - [Responsiveness](#responsiveness)
-    - [Features](#features)
+    - [Features Testing](#features-testing)
     - [Browser compatibility](#browser-compatibility)
-    - [User Stories](#user-stories)
+    - [User Stories Testing](#user-stories-testing)
     - [Bugs](#bugs)
     - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
@@ -103,7 +104,7 @@ I have used [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a t
 
 ### Icons
 
-I have used icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will be used where there is no explanation needed to their meaning, like the social media links and the hamburger icon for navigational links on smaller devices. Other icons are be used for style to the prize section headings.
+I have used icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will be used where there is no explanation needed to their meaning, like the social media links and the hamburger icon for navigational links on smaller devices. Other icons are used for style to the prize section headings.
 
 ### Colours
 
@@ -317,7 +318,7 @@ The header navigation bar is fixed and fully responsive to allow for various scr
     \
     &nbsp;
 
-- On submission of the form, the user is brought to a page confirming that their details were received successfully and that the club will be in contact. I have use the same hero image to be consistant with home page. There is a home icon link to return to home page. If not pressed within 10 seconds the user is redirected back to the home page.
+- On submission of the form, the user is brought to a page confirming that their details were received successfully and that the club will be in contact. I have used the same hero image to be consistant with home page. There is a home icon link to return to home page. If not pressed within 10 seconds the user is redirected back to the home page automatically.
     \
     &nbsp;
 
@@ -380,7 +381,7 @@ The header navigation bar is fixed and fully responsive to allow for various scr
 
 ### Code Validation
 
-When I was validating my html files, I had 3 warnings showing. It reported that sections were missing headings. I added headings, set a class to and set up a css style rule to hide the headings.
+When I was validating my html files, I had three warnings showing. It reported that sections were missing headings. I added headings, set a class to and set up a css style rule to hide the headings.
 The results of my validation for html and css files are below.
 
 - HTML (index.html) validator [results](documentation/index.html.png "W3C HTML")
@@ -450,7 +451,7 @@ The results of my validation for html and css files are below.
 \
 &nbsp;
                                         
-### Features
+### Features Testing
 
 - Table containing the list of features and results after manual tests:
 
@@ -493,7 +494,7 @@ The results of my validation for html and css files are below.
 
     ![Firefox](documentation/Firefox_desktop.png)
         
-### User Stories
+### User Stories Testing
 
 - Table of User stories and testing:
 
