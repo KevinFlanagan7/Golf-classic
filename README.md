@@ -6,7 +6,7 @@
 
 Welcome to the Midlands Golf Classic website. This site's goal is to promote the upcoming golf classic competetion. It gives details about the competition and the club, the location of the club and the great prizes to be won. It also gives the ability to make contact with the golf club easily through social media or directly via the registration form.
 
-![Responsive Displays](documentation/amiresponsive.png)
+![Responsive Displays](/documentation/amiresponsive.png)
 
 ## Table of Contents
 
@@ -588,7 +588,7 @@ For navigation checkbox toggle and footer:
 
 For scroll padding:
 
-- [Youtube](https://www.youtube.com/watch?v=iGUSTyG-CYw "Youtube")
+- [Youtube Kevin Powell](https://www.youtube.com/watch?v=iGUSTyG-CYw "Youtube")
 
 For Landing page image:
 
