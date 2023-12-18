@@ -597,8 +597,8 @@ For Landing page image:
 For Prize section images:
 
 - [Golfe Santo da Serra](https://www.santodaserragolf.com/ "Golfe Santo da Serra")
-- [Ashford Castle](https://ashfordcastle.com/ "Ashford castle)
-- [K-Club](https://www.kclub.ie/ "K-Club)
+- [Ashford Castle](https://ashfordcastle.com/ "Ashford castle")
+- [K-Club](https://www.kclub.ie/ "K-Club")
 
 For Gallery Images and Crest:
 
